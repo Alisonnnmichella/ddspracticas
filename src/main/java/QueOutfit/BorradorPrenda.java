@@ -4,20 +4,20 @@ import java.util.ArrayList;
 
 public class BorradorPrenda {
 
-   private Material material;
+   private EMaterial material;
    private Color colorPrincipal;
    private Color colorSecundario;
-   private Tela tela;
    private ETrama trama;
    private ETipo tipo;
    private Filtrador filtrador;
     public BorradorPrenda(ETipo tipo){
         this.tipo=tipo;
         this.filtrador=new Filtrador();
+        this.trama=ETrama.LISA;
     }
 
-    public Material getMaterial() {
-        return material.getMaterial();
+    public EMaterial getMaterial() {
+        return material;
     }
 
     public ETipo getTipo() {
@@ -26,20 +26,13 @@ public class BorradorPrenda {
 
 
 
-   public void setMaterial(Material material) {
+   public void setMaterial(EMaterial material) {
         this.material = material;
-        trama=ETrama.LISA;
-    }
-    public void setTela(Tela tela){
-        material=tela;
-        tela=tela;
+
     }
 
     public void setTrama(ETrama trama){
-        if(tela==null)
-            throw  new RuntimeException("Debe setear tela");
-        tela=new Tela(tela.getMaterial(),trama);
-        material=tela;
+        this.trama=trama;
     }
 
     public void setColorPrincipal(Color colorPrincipal) {
@@ -63,8 +56,8 @@ public class BorradorPrenda {
                 throw new RuntimeException("Las variables no tienen sentido juntas");
             }
             if(colorSecundario==null)
-                return new Prenda(tipo, material, colorPrincipal);
-            return new Prenda(tipo,material,colorPrincipal,colorSecundario);
+                return new Prenda(tipo, material,trama, colorPrincipal);
+            return new Prenda(tipo,material,trama,colorPrincipal,colorSecundario);
 
     }
 

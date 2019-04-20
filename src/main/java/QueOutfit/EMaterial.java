@@ -1,11 +1,7 @@
 package QueOutfit;
 
-public enum EMaterial implements Material {
+public enum EMaterial {
     CUERO,CUERINA,LANA,ALGODON,SEDA,LINO,JEAN;
-
-    public EMaterial getMaterial() {
-        return this;
-    }
 }
 
 

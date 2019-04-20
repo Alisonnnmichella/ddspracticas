@@ -8,4 +8,7 @@ public enum ETipo {
                this.categoria=categoria;
        }
 
+    public Categoria getCategoria() {
+        return categoria;
+    }
 }
