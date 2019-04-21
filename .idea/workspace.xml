@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803aeed8-ec08-482a-9501-1adbd108d40e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Instituto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoSanJuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Uniforme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoRemera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoRemera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Filtrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Filtrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -36,51 +40,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoPantalon.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Instituto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/BorradorPrenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoRemera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="96" selection-start-line="4" selection-start-column="96" selection-end-line="4" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Filtrador.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoSanJuan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="77" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="77" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="68" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -88,11 +73,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
               <folding>
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#420#421#0" expanded="true" />
               </folding>
@@ -122,7 +105,6 @@
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Categoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/TipoSuperior.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/TEXTURA.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Color.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETextura.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETela.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETrama.java" />
@@ -141,12 +123,19 @@
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/BasePrenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Material.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtrador.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/BorradorPrenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoRemera.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Uniforme.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Color.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohnson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Instituto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoSanJuan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/InstituloJohn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java" />
       </list>
     </option>
   </component>
@@ -210,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555850331117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555854533234" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -332,7 +321,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -340,7 +329,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32935154" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32935154" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -364,19 +353,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/TipoSuperior.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ETela.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Remera.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Caracteristica.java" />
@@ -422,26 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Filtrador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -449,10 +405,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoPantalon.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Uniforme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -465,8 +441,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/BorradorPrenda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ChequeoPantalon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/BuilderUniforme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -477,15 +467,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohnson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Instituto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoSanJuan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="4" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+          <folding>
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="68" />
         </state>
       </provider>
     </entry>
