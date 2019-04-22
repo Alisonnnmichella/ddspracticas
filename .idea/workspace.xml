@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803aeed8-ec08-482a-9501-1adbd108d40e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/AtuendoEnterizo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Sugerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Sugerencia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/Guardarropa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/Guardarropa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/Prenda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/Prenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/Sugerencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/Sugerencia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/QueOutfit/CreandoPrendasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QueOutfit/CreandoPrendasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,18 +29,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,32 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2115#2123#0" expanded="true" />
-                <element signature="e#2173#2181#0" expanded="true" />
-                <element signature="e#2231#2239#0" expanded="true" />
-                <element signature="e#2289#2297#0" expanded="true" />
-                <element signature="e#4448#4456#0" expanded="true" />
-                <element signature="e#4506#4514#0" expanded="true" />
-                <element signature="e#4564#4572#0" expanded="true" />
-                <element signature="e#4622#4630#0" expanded="true" />
-                <element signature="e#4660#4668#0" expanded="true" />
-                <element signature="e#4718#4726#0" expanded="true" />
-                <element signature="e#4784#4792#0" expanded="true" />
-                <element signature="e#4834#4842#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+            <state relative-caret-position="274">
+              <caret line="129" column="94" lean-forward="true" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +53,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="119" column="54" selection-start-line="119" selection-start-column="54" selection-end-line="119" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Sugerencia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="308">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,13 +79,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
                 <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +95,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/AtuendoEnterizo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="e#410#411#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
@@ -138,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="952">
               <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
             </state>
           </provider>
@@ -195,17 +167,17 @@
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/AtuendoEnterizo.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Sugerencia.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="981" />
@@ -217,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,14 +220,6 @@
               <item name="QueOutfit" type="b2602c69:ProjectViewProjectNode" />
               <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QueOutfit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,11 +241,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555944833235" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555955376137" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -297,8 +261,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SugerenciasTest.size">
-    <configuration name="CreandoPrendasTest.noSePuedeCrearUnaRemeraDeCuero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SugerenciasTest.verificaCantidadCombinaciones">
+    <configuration name="SugerenciasTest.contieneTodasLasCombinacionesCorrectamente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QueOutfit" />
       <extension name="coverage">
         <pattern>
@@ -307,56 +271,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.CreandoPrendasTest" />
-      <option name="METHOD_NAME" value="noSePuedeCrearUnaRemeraDeCuero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreandoPrendasTest.pruebaListas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueOutfit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueOutfit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.CreandoPrendasTest" />
-      <option name="METHOD_NAME" value="pruebaListas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreandoPrendasTest.sePuedeCrearUnaRemeraDeAlgodon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueOutfit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueOutfit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.CreandoPrendasTest" />
-      <option name="METHOD_NAME" value="sePuedeCrearUnaRemeraDeAlgodon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreandoPrendasTest.whenCalculatingCartesianProductOfSets_thenCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueOutfit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueOutfit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.CreandoPrendasTest" />
-      <option name="METHOD_NAME" value="whenCalculatingCartesianProductOfSets_thenCorrect" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
+      <option name="METHOD_NAME" value="contieneTodasLasCombinacionesCorrectamente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,13 +294,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SugerenciasTest.verificaCantidadCombinaciones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueOutfit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueOutfit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QueOutfit" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
+      <option name="METHOD_NAME" value="verificaCantidadCombinaciones" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SugerenciasTest.verificoCantidadCombinacionesEnterizos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueOutfit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueOutfit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QueOutfit" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
+      <option name="METHOD_NAME" value="verificoCantidadCombinacionesEnterizos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SugerenciasTest.verificoCombinacionesEnterizos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueOutfit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueOutfit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QueOutfit" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
+      <option name="METHOD_NAME" value="verificoCombinacionesEnterizos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SugerenciasTest.verificaCantidadCombinaciones" />
+        <item itemvalue="JUnit.SugerenciasTest.contieneTodasLasCombinacionesCorrectamente" />
+        <item itemvalue="JUnit.SugerenciasTest.verificoCantidadCombinacionesEnterizos" />
+        <item itemvalue="JUnit.SugerenciasTest.verificoCombinacionesEnterizos" />
         <item itemvalue="JUnit.SugerenciasTest.size" />
-        <item itemvalue="JUnit.CreandoPrendasTest.pruebaListas" />
-        <item itemvalue="JUnit.CreandoPrendasTest.whenCalculatingCartesianProductOfSets_thenCorrect" />
-        <item itemvalue="JUnit.CreandoPrendasTest.noSePuedeCrearUnaRemeraDeCuero" />
-        <item itemvalue="JUnit.CreandoPrendasTest.sePuedeCrearUnaRemeraDeAlgodon" />
       </list>
     </recent_temporary>
   </component>
@@ -402,39 +366,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreandoPrendasTest_pruebaListas - 2019.04.22 at 10h 12m 17s.xml">
-      <configuration name="CreandoPrendasTest.pruebaListas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreandoPrendasTest_pruebaListas - 2019.04.22 at 10h 25m 51s.xml">
-      <configuration name="CreandoPrendasTest.pruebaListas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreandoPrendasTest_pruebaListas - 2019.04.22 at 10h 36m 47s.xml">
-      <configuration name="CreandoPrendasTest.pruebaListas" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 24m 59s.xml">
+    <history-entry file="SugerenciasTest_size - 2019.04.22 at 14h 09m 40s.xml">
       <configuration name="SugerenciasTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 25m 38s.xml">
+    <history-entry file="SugerenciasTest_size - 2019.04.22 at 14h 10m 38s.xml">
       <configuration name="SugerenciasTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 26m 25s.xml">
+    <history-entry file="SugerenciasTest_size - 2019.04.22 at 14h 12m 18s.xml">
       <configuration name="SugerenciasTest.size" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 33m 10s.xml">
-      <configuration name="SugerenciasTest.size" configurationId="JUnit" />
+    <history-entry file="SugerenciasTest_verificoCombinacionesEnterizos - 2019.04.22 at 14h 24m 12s.xml">
+      <configuration name="SugerenciasTest.verificoCombinacionesEnterizos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 35m 31s.xml">
-      <configuration name="SugerenciasTest.size" configurationId="JUnit" />
+    <history-entry file="SugerenciasTest_verificoCombinacionesEnterizos - 2019.04.22 at 14h 25m 20s.xml">
+      <configuration name="SugerenciasTest.verificoCombinacionesEnterizos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 41m 21s.xml">
-      <configuration name="SugerenciasTest.size" configurationId="JUnit" />
+    <history-entry file="SugerenciasTest_verificoCombinacionesEnterizos - 2019.04.22 at 14h 26m 48s.xml">
+      <configuration name="SugerenciasTest.verificoCombinacionesEnterizos" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_size - 2019.04.22 at 11h 43m 58s.xml">
-      <configuration name="SugerenciasTest.size" configurationId="JUnit" />
+    <history-entry file="SugerenciasTest_verificoCombinacionesEnterizos - 2019.04.22 at 14h 37m 28s.xml">
+      <configuration name="SugerenciasTest.verificoCombinacionesEnterizos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SugerenciasTest_verificoCantidadCombinacionesEnterizos - 2019.04.22 at 14h 41m 02s.xml">
+      <configuration name="SugerenciasTest.verificoCantidadCombinacionesEnterizos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SugerenciasTest_verificoCantidadCombinacionesEnterizos - 2019.04.22 at 14h 45m 04s.xml">
+      <configuration name="SugerenciasTest.verificoCantidadCombinacionesEnterizos" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SugerenciasTest_verificaCantidadCombinaciones - 2019.04.22 at 14h 45m 13s.xml">
+      <configuration name="SugerenciasTest.verificaCantidadCombinaciones" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -442,7 +406,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980484" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2373146" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -535,13 +499,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/BuilderUniforme.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohnson.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ETipo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -589,13 +546,6 @@
     <entry file="file://$PROJECT_DIR$/QueOutfit.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/InstitutoJohn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -607,24 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="101" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,10 +590,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/EMaterial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/AtuendoEnterizo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#410#411#0" expanded="true" />
             <element signature="e#447#448#0" expanded="true" />
@@ -673,55 +624,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="114" column="26" lean-forward="true" selection-start-line="114" selection-start-column="26" selection-end-line="114" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2115#2123#0" expanded="true" />
-            <element signature="e#2173#2181#0" expanded="true" />
-            <element signature="e#2231#2239#0" expanded="true" />
-            <element signature="e#2289#2297#0" expanded="true" />
-            <element signature="e#4448#4456#0" expanded="true" />
-            <element signature="e#4506#4514#0" expanded="true" />
-            <element signature="e#4564#4572#0" expanded="true" />
-            <element signature="e#4622#4630#0" expanded="true" />
-            <element signature="e#4660#4668#0" expanded="true" />
-            <element signature="e#4718#4726#0" expanded="true" />
-            <element signature="e#4784#4792#0" expanded="true" />
-            <element signature="e#4834#4842#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Prenda.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Guardarropa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#844#845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+        <state relative-caret-position="189">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Sugerencia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="308">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/CreandoPrendasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="129" column="94" lean-forward="true" selection-start-line="129" selection-start-column="8" selection-end-line="129" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="119" column="54" selection-start-line="119" selection-start-column="54" selection-end-line="119" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

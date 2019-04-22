@@ -1,12 +1,13 @@
 package QueOutfit;
 
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-
+import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+
+import static org.hamcrest.Matchers.containsInAnyOrder;
 
 public class SugerenciasTest {
     Prenda remera;
@@ -26,6 +27,17 @@ public class SugerenciasTest {
     ArrayList <Prenda> comb8;
     Sugerencia sugerencia;
     Set<List<Prenda>> result;
+    AtuendoEnterizo at1;
+    AtuendoEnterizo at2;
+    AtuendoEnterizo at3;
+    AtuendoEnterizo at4;
+    AtuendoEnterizo at5;
+    AtuendoEnterizo at6;
+    AtuendoEnterizo at7;
+    AtuendoEnterizo at8;
+
+
+
 
 
 
@@ -46,7 +58,6 @@ public class SugerenciasTest {
         guardarropa.agregarPrenda(zapatillas);
         guardarropa.agregarPrenda(zapatos);
         sugerencia= new Sugerencia();
-        result=sugerencia.combinaciones(guardarropa);
 
         comb1=new ArrayList<Prenda>();
         comb2=new ArrayList<Prenda>();
@@ -60,44 +71,61 @@ public class SugerenciasTest {
         comb1.add(remera);
         comb1.add(pantalon);
         comb1.add(zapatos);
+        at1= new AtuendoEnterizo(remera,pantalon,zapatos);
 
         comb2.add(remera);
         comb2.add(pantalon);
         comb2.add(zapatillas);
+        at2= new AtuendoEnterizo(remera,pantalon,zapatillas);
 
         comb3.add(remera);
         comb3.add(shorts);
         comb3.add(zapatos);
+        at3= new AtuendoEnterizo(remera,shorts,zapatos);
 
         comb4.add(remera);
         comb4.add(shorts);
         comb4.add(zapatillas);
+        at4= new AtuendoEnterizo(remera,shorts,zapatillas);
 
         comb5.add(camisa);
         comb5.add(pantalon);
         comb5.add(zapatos);
+        at5= new AtuendoEnterizo(camisa,pantalon,zapatos);
 
         comb6.add(camisa);
         comb6.add(pantalon);
         comb6.add(zapatillas);
+        at6=new AtuendoEnterizo(camisa,pantalon,zapatillas);
 
         comb7.add(camisa);
         comb7.add(shorts);
         comb7.add(zapatos);
+        at7= new AtuendoEnterizo(camisa,shorts,zapatos);
 
         comb8.add(camisa);
         comb8.add(shorts);
         comb8.add(zapatillas);
+        at8= new AtuendoEnterizo(camisa,shorts,zapatillas);
 
+    }
 
+    @Test
+    public void verificaCantidadCombinaciones() {
+        Set<List<Prenda>> combinaciones=sugerencia.combinaciones(guardarropa);
+        assert (combinaciones.size()==8);
     }
     @Test
-    public void size() {
-        this.initialize();
-        Set<List<Prenda>> combinaciones=sugerencia.combinaciones(guardarropa);
-        System.out.println("Combinaciones: "+combinaciones.size());
-        assert (combinaciones.size()>0);
-
+    public void contieneTodasLasCombinacionesCorrectamente(){
+        result= sugerencia.combinaciones(guardarropa);
+        assertThat(result,containsInAnyOrder(comb1,comb2,comb3,comb4,comb5,comb6,comb7,comb8));
     }
+
+    @Test
+    public void verificoCantidadCombinacionesEnterizos(){
+        ArrayList <AtuendoEnterizo> atuendos= sugerencia.combinacionesAtuendosEnterizos(guardarropa);
+        assert(atuendos.size()==8);
+    }
+
 
 }
