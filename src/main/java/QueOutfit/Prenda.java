@@ -21,4 +21,10 @@ public class Prenda {
         this.colorSecundario = colorSecundario;
         this.trama=trama;
     }
+    public Categoria getCategoria(){
+        return tipo.getCategoria();
+    }
+    public String getNombre(){
+        return tipo.name();
+    }
 }

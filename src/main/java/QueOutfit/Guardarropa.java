@@ -1,5 +1,6 @@
 package QueOutfit;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class Guardarropa {
@@ -12,6 +13,9 @@ public class Guardarropa {
     }
     public void quitarPrenda(Prenda prenda){
         prendas.remove(prenda);
+    }
+    public HashSet <Prenda> getPrendas(){
+        return prendas;
     }
 
 }
