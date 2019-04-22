@@ -10,45 +10,47 @@ import java.util.Set;
 import static org.hamcrest.Matchers.containsInAnyOrder;
 
 public class SugerenciasTest {
-    Prenda remera;
-    Prenda camisa;
-    Prenda pantalon;
-    Prenda shorts;
-    Prenda  zapatos;
-    Prenda zapatillas;
-    Guardarropa guardarropa= new Guardarropa();
-    ArrayList <Prenda> comb1;
-    ArrayList <Prenda> comb2;
-    ArrayList <Prenda> comb3;
-    ArrayList <Prenda> comb4;
-    ArrayList <Prenda> comb5;
-    ArrayList <Prenda> comb6;
-    ArrayList <Prenda> comb7;
-    ArrayList <Prenda> comb8;
-    Sugerencia sugerencia;
-    Set<List<Prenda>> result;
-    AtuendoEnterizo at1;
-    AtuendoEnterizo at2;
-    AtuendoEnterizo at3;
-    AtuendoEnterizo at4;
-    AtuendoEnterizo at5;
-    AtuendoEnterizo at6;
-    AtuendoEnterizo at7;
-    AtuendoEnterizo at8;
-
-
-
-
-
-
-
+    private Prenda remera;
+    private Prenda camisa;
+    private Prenda pantalon;
+    private Prenda  zapatos;
+    private Prenda zapatillas;
+    private Prenda gorro;
+    private Prenda guantes;
+    private Prenda anteojosDeSol;
+    private Prenda bufanda;
+    private Guardarropa guardarropa= new Guardarropa();
+    private ArrayList <Prenda> comb1;
+    private ArrayList <Prenda> comb2;
+    private ArrayList <Prenda> comb3;
+    private ArrayList <Prenda> comb4;
+    private ArrayList <Prenda> comb5;
+    private ArrayList <Prenda> comb6;
+    private ArrayList <Prenda> comb7;
+    private ArrayList <Prenda> comb8;
+    private Sugerencia sugerencia;
+    private Set<List<Prenda>> result;
+    private AtuendoEnterizo at1;
+    private AtuendoEnterizo at2;
+    private AtuendoEnterizo at3;
+    private AtuendoEnterizo at4;
+    private AtuendoEnterizo at5;
+    private AtuendoEnterizo at6;
+    private AtuendoEnterizo at7;
+    private AtuendoEnterizo at8;
 
     @Before
     public void initialize(){
+        gorro=new Prenda(ETipo.GORRO,EMaterial.ALGODON,ETrama.ESTAMPADA,Color.red());
+        guantes= new Prenda(ETipo.GUANTES,EMaterial.CUERO,ETrama.LISA,Color.red());
+        anteojosDeSol=new Prenda(ETipo.ANTEOJOS_DE_SOL,EMaterial.PLASTICO,ETrama.LISA,Color.verde());
+
+        bufanda=new Prenda(ETipo.BUFANDA,EMaterial.LANA,ETrama.RAYADA,Color.blanco());
+
         remera= new Prenda(ETipo.REMERA,EMaterial.ALGODON,ETrama.LISA,Color.gris());
         camisa = new Prenda(ETipo.CAMISA,EMaterial.ALGODON,ETrama.LISA,Color.blanco());
         pantalon= new Prenda(ETipo.PANTALON,EMaterial.ACETATO,ETrama.LISA,Color.gris());
-        shorts = new Prenda(ETipo.SHORT,EMaterial.PIQUE,ETrama.LISA,Color.verde());
+        Prenda shorts = new Prenda(ETipo.SHORT, EMaterial.PIQUE, ETrama.LISA, Color.verde());
         zapatos =new Prenda(ETipo.ZAPATOS,EMaterial.CUERO,ETrama.LISA,Color.negro());
         zapatillas=new Prenda(ETipo.ZAPATILLAS,EMaterial.CUERINA,ETrama.LISA,Color.blanco());
         guardarropa.agregarPrenda(remera);
@@ -57,16 +59,20 @@ public class SugerenciasTest {
         guardarropa.agregarPrenda(shorts);
         guardarropa.agregarPrenda(zapatillas);
         guardarropa.agregarPrenda(zapatos);
+        guardarropa.agregarPrenda(bufanda);
+        guardarropa.agregarPrenda(gorro);
+        guardarropa.agregarPrenda(guantes);
+        guardarropa.agregarPrenda(anteojosDeSol);
         sugerencia= new Sugerencia();
 
-        comb1=new ArrayList<Prenda>();
-        comb2=new ArrayList<Prenda>();
-        comb3=new ArrayList<Prenda>();
-        comb4=new ArrayList<Prenda>();
-        comb5=new ArrayList<Prenda>();
-        comb6=new ArrayList<Prenda>();
-        comb7=new ArrayList<Prenda>();
-        comb8=new ArrayList<Prenda>();
+        comb1=new ArrayList<>();
+        comb2=new ArrayList<>();
+        comb3=new ArrayList<>();
+        comb4=new ArrayList<>();
+        comb5=new ArrayList<>();
+        comb6=new ArrayList<>();
+        comb7=new ArrayList<>();
+        comb8=new ArrayList<>();
 
         comb1.add(remera);
         comb1.add(pantalon);
@@ -81,12 +87,12 @@ public class SugerenciasTest {
         comb3.add(remera);
         comb3.add(shorts);
         comb3.add(zapatos);
-        at3= new AtuendoEnterizo(remera,shorts,zapatos);
+        at3= new AtuendoEnterizo(remera, shorts,zapatos);
 
         comb4.add(remera);
         comb4.add(shorts);
         comb4.add(zapatillas);
-        at4= new AtuendoEnterizo(remera,shorts,zapatillas);
+        at4= new AtuendoEnterizo(remera, shorts,zapatillas);
 
         comb5.add(camisa);
         comb5.add(pantalon);
@@ -101,12 +107,12 @@ public class SugerenciasTest {
         comb7.add(camisa);
         comb7.add(shorts);
         comb7.add(zapatos);
-        at7= new AtuendoEnterizo(camisa,shorts,zapatos);
+        at7= new AtuendoEnterizo(camisa, shorts,zapatos);
 
         comb8.add(camisa);
         comb8.add(shorts);
         comb8.add(zapatillas);
-        at8= new AtuendoEnterizo(camisa,shorts,zapatillas);
+        at8= new AtuendoEnterizo(camisa, shorts,zapatillas);
 
     }
 

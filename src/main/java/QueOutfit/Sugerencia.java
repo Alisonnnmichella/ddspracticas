@@ -1,7 +1,6 @@
 package QueOutfit;
 
 import com.google.common.collect.ImmutableList;
-import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Sets;
 
 import java.util.ArrayList;
@@ -16,19 +15,14 @@ public class Sugerencia {
     public Set<List<Prenda>> combinaciones(Guardarropa guardarropa){
     HashSet<Prenda> prendas=guardarropa.getPrendas();
 
-        Set<Prenda> superiores= prendas.stream()
-            .filter(prenda->prenda.getCategoria()==Categoria.SUPERIOR)
-            .collect(Collectors.toSet());
-        Set<Prenda> inferiores=ImmutableSet.copyOf(prendas.stream()
-            .filter(prenda->prenda.getCategoria()==Categoria.INFERIOR)
-            .collect(Collectors.toSet()));
-        Set<Prenda> calzados=ImmutableSet.copyOf(prendas.stream()
-            .filter(prenda->prenda.getCategoria()==Categoria.CALZADO)
-            .collect(Collectors.toSet()));
+        Set<Prenda> superiores= obtenerPrendasDeCategoria(guardarropa,Categoria.SUPERIOR);
+        Set<Prenda> inferiores=obtenerPrendasDeCategoria(guardarropa,Categoria.INFERIOR);
+        Set<Prenda> calzados=obtenerPrendasDeCategoria(guardarropa,Categoria.CALZADO);
         Set<List<Prenda>> result=
             Sets.cartesianProduct(ImmutableList.of(superiores, inferiores,calzados));
         return result;
     }
+
     public ArrayList<AtuendoEnterizo> combinacionesAtuendosEnterizos(Guardarropa guardarropa){
         ArrayList <AtuendoEnterizo> atuendos=new ArrayList<>();
         Set<List<Prenda>> result=this.combinaciones(guardarropa);
@@ -36,8 +30,13 @@ public class Sugerencia {
            return atuendos;
     }
 
-
-
+    public Set<Prenda> obtenerPrendasDeCategoria(Guardarropa guardarropa,Categoria categoria){
+        HashSet<Prenda> prendas=guardarropa.getPrendas();
+           Set subconjunto= prendas.stream()
+            .filter(prenda->prenda.getCategoria()==categoria)
+            .collect(Collectors.toSet());
+        return subconjunto;
+    }
 
 
 }
