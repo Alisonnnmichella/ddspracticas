@@ -55,10 +55,13 @@ public class SugerenciasTest {
         zapatillas=new Prenda(ETipo.ZAPATILLAS,EMaterial.CUERINA,ETrama.LISA,Color.blanco());
         guardarropa.agregarPrenda(remera);
         guardarropa.agregarPrenda(camisa);
+
         guardarropa.agregarPrenda(pantalon);
         guardarropa.agregarPrenda(shorts);
+
         guardarropa.agregarPrenda(zapatillas);
         guardarropa.agregarPrenda(zapatos);
+
         guardarropa.agregarPrenda(bufanda);
         guardarropa.agregarPrenda(gorro);
         guardarropa.agregarPrenda(guantes);
@@ -122,6 +125,12 @@ public class SugerenciasTest {
         assert (combinaciones.size()==8);
     }
     @Test
+    public void verificaCantidadCombinacionesConAccesorios() {
+        Set<List<Prenda>> combinaciones=sugerencia.combinacionesConAccesorios(guardarropa);
+        assert (combinaciones.size()==32);
+    }
+
+    @Test
     public void contieneTodasLasCombinacionesCorrectamente(){
         result= sugerencia.combinaciones(guardarropa);
         assertThat(result,containsInAnyOrder(comb1,comb2,comb3,comb4,comb5,comb6,comb7,comb8));
@@ -132,6 +141,4 @@ public class SugerenciasTest {
         ArrayList <AtuendoEnterizo> atuendos= sugerencia.combinacionesAtuendosEnterizos(guardarropa);
         assert(atuendos.size()==8);
     }
-
-
 }

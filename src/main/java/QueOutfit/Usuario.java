@@ -1,5 +1,6 @@
 package QueOutfit;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 
 public class Usuario {
@@ -9,6 +10,7 @@ public class Usuario {
         this.guardarropas = new HashSet<>();
         guardarropas.add(guardarropa);
     }
+
     public void agregarGuadarropa(Guardarropa guard){
         guardarropas.add(guard);
     }

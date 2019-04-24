@@ -23,12 +23,33 @@ public class Sugerencia {
         return result;
     }
 
+    public Set<List<Prenda>> combinacionesConAccesorios(Guardarropa guardarropa){
+        HashSet<Prenda> prendas=guardarropa.getPrendas();
+
+        Set<Prenda> superiores= obtenerPrendasDeCategoria(guardarropa,Categoria.SUPERIOR);
+        Set<Prenda> inferiores=obtenerPrendasDeCategoria(guardarropa,Categoria.INFERIOR);
+        Set<Prenda> calzados=obtenerPrendasDeCategoria(guardarropa,Categoria.CALZADO);
+        Set<Prenda> accesorios=obtenerPrendasDeCategoria(guardarropa,Categoria.ACCESORIO);
+        Set<List<Prenda>> result=
+                Sets.cartesianProduct(ImmutableList.of(superiores, inferiores,calzados,accesorios));
+        return result;
+    }
+
+
     public ArrayList<AtuendoEnterizo> combinacionesAtuendosEnterizos(Guardarropa guardarropa){
         ArrayList <AtuendoEnterizo> atuendos=new ArrayList<>();
         Set<List<Prenda>> result=this.combinaciones(guardarropa);
            result.forEach(li->atuendos.add(new AtuendoEnterizo(li.get(0),li.get(1),li.get(2))));
            return atuendos;
     }
+    public ArrayList<AtuendoEnterizo> enterizosConAccesorio(Guardarropa guardarropa){
+        ArrayList <AtuendoEnterizo> atuendos=new ArrayList<>();
+        Set<List<Prenda>> result=this.combinacionesConAccesorios(guardarropa);
+        result.forEach(li->atuendos.add(new AtuendoEnterizo(li.get(0),li.get(1),li.get(2),li.get(3))));
+        return atuendos;
+    }
+
+
 
     public Set<Prenda> obtenerPrendasDeCategoria(Guardarropa guardarropa,Categoria categoria){
         HashSet<Prenda> prendas=guardarropa.getPrendas();
@@ -40,3 +61,4 @@ public class Sugerencia {
 
 
 }
+
