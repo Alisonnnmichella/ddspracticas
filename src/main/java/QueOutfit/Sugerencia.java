@@ -33,6 +33,7 @@ public class Sugerencia {
     public Set<Prenda> obtenerPrendasDeCategoria(Guardarropa guardarropa,Categoria categoria){
         HashSet<Prenda> prendas=guardarropa.getPrendas();
            Set subconjunto= prendas.stream()
+            .filter(prenda->prenda.disponible())
             .filter(prenda->prenda.getCategoria()==categoria)
             .collect(Collectors.toSet());
         return subconjunto;
