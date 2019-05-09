@@ -1,5 +1,6 @@
 package QueOutfit;
 
+import QueOutfit.PrendasElementos.*;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -30,18 +31,18 @@ public class SugerenciasTest {
     private ArrayList <Prenda> comb8;
     private Sugerencia sugerencia;
     private Set<List<Prenda>> result;
-    private AtuendoEnterizo at1;
-    private AtuendoEnterizo at2;
-    private AtuendoEnterizo at3;
-    private AtuendoEnterizo at4;
-    private AtuendoEnterizo at5;
-    private AtuendoEnterizo at6;
-    private AtuendoEnterizo at7;
-    private AtuendoEnterizo at8;
+    private Atuendo at1;
+    private Atuendo at2;
+    private Atuendo at3;
+    private Atuendo at4;
+    private Atuendo at5;
+    private Atuendo at6;
+    private Atuendo at7;
+    private Atuendo at8;
 
     @Before
     public void initialize(){
-        gorro=new Prenda(ETipo.GORRO,EMaterial.ALGODON,ETrama.ESTAMPADA,Color.red());
+        gorro=new Prenda(ETipo.GORRO, EMaterial.ALGODON, ETrama.ESTAMPADA, Color.red());
         guantes= new Prenda(ETipo.GUANTES,EMaterial.CUERO,ETrama.LISA,Color.red());
         anteojosDeSol=new Prenda(ETipo.ANTEOJOS_DE_SOL,EMaterial.PLASTICO,ETrama.LISA,Color.verde());
 
@@ -53,6 +54,7 @@ public class SugerenciasTest {
         Prenda shorts = new Prenda(ETipo.SHORT, EMaterial.PIQUE, ETrama.LISA, Color.verde());
         zapatos =new Prenda(ETipo.ZAPATOS,EMaterial.CUERO,ETrama.LISA,Color.negro());
         zapatillas=new Prenda(ETipo.ZAPATILLAS,EMaterial.CUERINA,ETrama.LISA,Color.blanco());
+
         guardarropa.agregarPrenda(remera);
         guardarropa.agregarPrenda(camisa);
 
@@ -60,12 +62,10 @@ public class SugerenciasTest {
         guardarropa.agregarPrenda(shorts);
 
         guardarropa.agregarPrenda(zapatillas);
-        guardarropa.agregarPrenda(zapatos);
 
         guardarropa.agregarPrenda(bufanda);
         guardarropa.agregarPrenda(gorro);
-        guardarropa.agregarPrenda(guantes);
-        guardarropa.agregarPrenda(anteojosDeSol);
+
         sugerencia= new Sugerencia();
 
         comb1=new ArrayList<>();
@@ -79,66 +79,68 @@ public class SugerenciasTest {
 
         comb1.add(remera);
         comb1.add(pantalon);
-        comb1.add(zapatos);
-        at1= new AtuendoEnterizo(remera,pantalon,zapatos);
+        comb1.add(zapatillas);
+        comb1.add(bufanda);
+        at1= new Atuendo(comb1);
 
         comb2.add(remera);
         comb2.add(pantalon);
         comb2.add(zapatillas);
-        at2= new AtuendoEnterizo(remera,pantalon,zapatillas);
+        comb2.add(gorro);
+
+        at2= new Atuendo(comb2);
 
         comb3.add(remera);
         comb3.add(shorts);
-        comb3.add(zapatos);
-        at3= new AtuendoEnterizo(remera, shorts,zapatos);
+        comb3.add(zapatillas);
+        comb3.add(bufanda);
+        at3= new Atuendo(comb3);
 
         comb4.add(remera);
         comb4.add(shorts);
         comb4.add(zapatillas);
-        at4= new AtuendoEnterizo(remera, shorts,zapatillas);
+        comb4.add(gorro);
+        at4= new Atuendo(comb4);
 
         comb5.add(camisa);
         comb5.add(pantalon);
         comb5.add(zapatos);
-        at5= new AtuendoEnterizo(camisa,pantalon,zapatos);
+        comb5.add(bufanda);
+        at5= new Atuendo(comb5);
 
         comb6.add(camisa);
         comb6.add(pantalon);
         comb6.add(zapatillas);
-        at6=new AtuendoEnterizo(camisa,pantalon,zapatillas);
+        comb6.add(gorro);
+        at6=new Atuendo(comb6);
 
         comb7.add(camisa);
         comb7.add(shorts);
         comb7.add(zapatos);
-        at7= new AtuendoEnterizo(camisa, shorts,zapatos);
+        comb7.add(bufanda);
+        at7= new Atuendo(comb7);
 
         comb8.add(camisa);
         comb8.add(shorts);
         comb8.add(zapatillas);
-        at8= new AtuendoEnterizo(camisa, shorts,zapatillas);
-
+        comb8.add(gorro);
+        at8= new Atuendo(comb8);
     }
 
+    @Test
+    public void verificarCantidadDeRopaEnGuardarropa(){
+        assert(7==guardarropa.getPrendas().size());
+    }
     @Test
     public void verificaCantidadCombinaciones() {
         Set<List<Prenda>> combinaciones=sugerencia.combinaciones(guardarropa);
         assert (combinaciones.size()==8);
     }
-    @Test
-    public void verificaCantidadCombinacionesConAccesorios() {
-        Set<List<Prenda>> combinaciones=sugerencia.combinacionesConAccesorios(guardarropa);
-        assert (combinaciones.size()==32);
-    }
 
-    @Test
-    public void contieneTodasLasCombinacionesCorrectamente(){
-        result= sugerencia.combinaciones(guardarropa);
-        assertThat(result,containsInAnyOrder(comb1,comb2,comb3,comb4,comb5,comb6,comb7,comb8));
-    }
 
     @Test
     public void verificoCantidadCombinacionesEnterizos(){
-        ArrayList <AtuendoEnterizo> atuendos= sugerencia.combinacionesAtuendosEnterizos(guardarropa);
+        Set <Atuendo> atuendos= sugerencia.obtenerAtuendos(guardarropa);
         assert(atuendos.size()==8);
     }
 }

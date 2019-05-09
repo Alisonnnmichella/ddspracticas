@@ -1,11 +1,7 @@
 package QueOutfit;
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
-import com.google.common.collect.*;
+
+import QueOutfit.PrendasElementos.*;
 import org.junit.Test;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
 
 public class CreandoPrendasTest {
     private BorradorPrenda remeraBorrador= new BorradorPrenda(ETipo.REMERA);
@@ -14,6 +10,8 @@ public class CreandoPrendasTest {
     public void noSePuedeCrearUnaPrendaEnBorradorConConstructorNull(){
         remeraBorrador.contruirPrenda();
     }
+
+
     @Test(expected = RuntimeException.class)
         public void noSePuedeCrearUnaRemeraDeCuero(){
         remeraBorrador.setMaterial(EMaterial.CUERO);
