@@ -25,4 +25,7 @@ public class Prenda {
     public String getNombre(){
         return base.getNombre();
     }
+    public int getTemperaturaMaxima(){
+        return base.getTemperaturaMaxima();
+    }
 }

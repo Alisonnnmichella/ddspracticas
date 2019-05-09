@@ -21,5 +21,5 @@ public class PrendaBase {
     public String getNombre(){
         return getCategoria().name();
     }
-
+    public int getTemperaturaMaxima(){return temperaturaMaxima;}
 }

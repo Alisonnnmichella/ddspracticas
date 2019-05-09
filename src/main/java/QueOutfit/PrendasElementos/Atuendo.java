@@ -27,7 +27,7 @@ public class Atuendo {
                 containsAll((Arrays.asList(Categoria.values())));
     }
 
-    public Prenda obtenerPrenda(Categoria categoria) {
+    private Prenda obtenerPrenda(Categoria categoria) {
         return atuendo.stream().filter(prenda->prenda.getCategoria()==categoria).collect(Collectors.toList()).get(0);
     }
 
@@ -47,4 +47,7 @@ public class Atuendo {
         return this.obtenerPrenda(Categoria.SUPERIOR);
     }
 
+    public List <Prenda> getPrendas(){
+        return atuendo;
+    }
 }
