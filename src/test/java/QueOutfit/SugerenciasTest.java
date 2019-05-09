@@ -42,18 +42,18 @@ public class SugerenciasTest {
 
     @Before
     public void initialize(){
-        gorro=new Prenda(ETipo.GORRO, EMaterial.ALGODON, ETrama.ESTAMPADA, Color.red());
-        guantes= new Prenda(ETipo.GUANTES,EMaterial.CUERO,ETrama.LISA,Color.red());
-        anteojosDeSol=new Prenda(ETipo.ANTEOJOS_DE_SOL,EMaterial.PLASTICO,ETrama.LISA,Color.verde());
+        gorro=new Prenda(new PrendaBase(ETipo.GORRO, EMaterial.ALGODON,13), ETrama.ESTAMPADA, Color.red());
+        guantes= new Prenda(new PrendaBase(ETipo.GUANTES,EMaterial.CUERO,13),ETrama.LISA,Color.red());
+        anteojosDeSol=new Prenda(new PrendaBase(ETipo.ANTEOJOS_DE_SOL,EMaterial.PLASTICO,40),ETrama.LISA,Color.verde());
 
-        bufanda=new Prenda(ETipo.BUFANDA,EMaterial.LANA,ETrama.RAYADA,Color.blanco());
+        bufanda=new Prenda(new PrendaBase(ETipo.BUFANDA,EMaterial.LANA,13),ETrama.RAYADA,Color.blanco());
 
-        remera= new Prenda(ETipo.REMERA,EMaterial.ALGODON,ETrama.LISA,Color.gris());
-        camisa = new Prenda(ETipo.CAMISA,EMaterial.ALGODON,ETrama.LISA,Color.blanco());
-        pantalon= new Prenda(ETipo.PANTALON,EMaterial.ACETATO,ETrama.LISA,Color.gris());
-        Prenda shorts = new Prenda(ETipo.SHORT, EMaterial.PIQUE, ETrama.LISA, Color.verde());
-        zapatos =new Prenda(ETipo.ZAPATOS,EMaterial.CUERO,ETrama.LISA,Color.negro());
-        zapatillas=new Prenda(ETipo.ZAPATILLAS,EMaterial.CUERINA,ETrama.LISA,Color.blanco());
+        remera= new Prenda(new PrendaBase(ETipo.REMERA,EMaterial.ALGODON,40),ETrama.LISA,Color.gris());
+        camisa = new Prenda(new PrendaBase(ETipo.CAMISA,EMaterial.ALGODON,40),ETrama.LISA,Color.blanco());
+        pantalon= new Prenda(new PrendaBase(ETipo.PANTALON,EMaterial.ACETATO,40),ETrama.LISA,Color.gris());
+        Prenda shorts = new Prenda(new PrendaBase(ETipo.SHORT, EMaterial.PIQUE,50), ETrama.LISA, Color.verde());
+        zapatos =new Prenda(new PrendaBase(ETipo.ZAPATOS,EMaterial.CUERO,40),ETrama.LISA,Color.negro());
+        zapatillas=new Prenda(new PrendaBase(ETipo.ZAPATILLAS,EMaterial.CUERINA,40),ETrama.LISA,Color.blanco());
 
         guardarropa.agregarPrenda(remera);
         guardarropa.agregarPrenda(camisa);

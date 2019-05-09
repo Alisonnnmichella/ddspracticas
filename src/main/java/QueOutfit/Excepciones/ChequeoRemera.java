@@ -3,10 +3,11 @@ package QueOutfit.Excepciones;
 import QueOutfit.PrendasElementos.BorradorPrenda;
 import QueOutfit.PrendasElementos.EMaterial;
 import QueOutfit.PrendasElementos.ETipo;
+import QueOutfit.PrendasElementos.PrendaBase;
 
 public class ChequeoRemera implements Chequeo {
-    public boolean match(BorradorPrenda borrador){
-       return borrador.getTipo()== ETipo.REMERA && (borrador.getMaterial()!= EMaterial.CUERINA && borrador.getMaterial()!=EMaterial.CUERO);
+    public boolean match(PrendaBase base){
+       return base.getTipo()== ETipo.REMERA && (base.getMaterial()!= EMaterial.CUERINA && base.getMaterial()!=EMaterial.CUERO);
     }
 
 }

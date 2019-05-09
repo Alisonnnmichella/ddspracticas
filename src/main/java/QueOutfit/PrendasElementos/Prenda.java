@@ -1,30 +1,28 @@
 package QueOutfit.PrendasElementos;
 
 public class Prenda {
-    private ETipo tipo;
-    private EMaterial material;
+    private PrendaBase base;
     private ETrama trama;
     private Color colorPrimario;
     private Color colorSecundario;
+    private int TemperaturaMaxima;
 
-    public Prenda(ETipo tipo, EMaterial material,ETrama trama, Color colorPrimario) {
-        this.tipo = tipo;
-        this.material = material;
+    public Prenda(PrendaBase base,ETrama trama, Color colorPrimario) {
+        this.base=base;
         this.colorPrimario = colorPrimario;
         this.trama=trama;
     }
 
-    public Prenda(ETipo tipo, EMaterial material, ETrama trama,Color colorPrimario, Color colorSecundario) {
-        this.tipo = tipo;
-        this.material = material;
+    public Prenda(PrendaBase base, ETrama trama,Color colorPrimario, Color colorSecundario) {
+        this.base=base;
         this.colorPrimario = colorPrimario;
         this.colorSecundario = colorSecundario;
         this.trama=trama;
     }
     public Categoria getCategoria(){
-        return tipo.getCategoria();
+        return base.getCategoria();
     }
     public String getNombre(){
-        return tipo.name();
+        return base.getNombre();
     }
 }
