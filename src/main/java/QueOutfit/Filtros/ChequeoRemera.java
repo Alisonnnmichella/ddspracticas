@@ -1,6 +1,5 @@
-package QueOutfit.Excepciones;
+package QueOutfit.Filtros;
 
-import QueOutfit.PrendasElementos.BorradorPrenda;
 import QueOutfit.PrendasElementos.EMaterial;
 import QueOutfit.PrendasElementos.ETipo;
 import QueOutfit.PrendasElementos.PrendaBase;

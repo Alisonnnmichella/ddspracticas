@@ -1,6 +1,6 @@
 package QueOutfit.PrendasElementos;
 
-import QueOutfit.Excepciones.Filtrador;
+import QueOutfit.Filtros.Filtrador;
 
 public class PrendaBase {
     private ETipo tipo;
