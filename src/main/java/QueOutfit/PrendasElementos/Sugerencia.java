@@ -9,6 +9,9 @@ import java.util.stream.Collectors;
 
 public class Sugerencia {
     Clima clima;
+    public Sugerencia(Clima clima){
+        this.clima=clima;
+    }
     public Set<Atuendo> obtenerTodosLosAtuendos(Guardarropa guardarropa){
        return combinaciones(guardarropa).stream()
                .map(listaDePrendas->new Atuendo(listaDePrendas)).collect(Collectors.toSet());

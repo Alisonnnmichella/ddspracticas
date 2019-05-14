@@ -1,0 +1,202 @@
+	
+[
+  {
+    "DateTime": "2019-05-03T13:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T14:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T15:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T16:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T17:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T18:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T19:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T20:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T21:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T22:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T23:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T00:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  },
+  {
+    "DateTime": "2019-05-03T01:00:00-03:00",
+    "EpochDateTime": 1556856000,
+    "WeatherIcon": 33,
+    "IconPhrase": "Clear",
+    "IsDaylight": false,
+    "Temperature": {
+      "Value": 57,
+      "Unit": "F",
+      "UnitType": 18
+    },
+    "PrecipitationProbability": 0,
+    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
+    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
+  }
+]
+	
+	
+	
+	

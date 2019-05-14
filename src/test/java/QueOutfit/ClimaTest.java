@@ -1,15 +1,13 @@
 package QueOutfit;
 
-import QueOutfit.ManejoDeApisClima.ClimaApiAcuWeather;
+import QueOutfit.ManigeJsonAccuWeather.ClimaJsonAccuWeather;
 import QueOutfit.PrendasElementos.Clima;
-import org.joda.time.LocalTime;
 import org.junit.Test;
 
 public class ClimaTest {
     @Test
     public void implementarClima(){
-        LocalTime localTime = new LocalTime();
-        Clima clima= new ClimaApiAcuWeather();
+        Clima clima= new ClimaJsonAccuWeather();
         assert(clima.getTemperatura()==57);
     }
 
