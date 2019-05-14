@@ -2,13 +2,11 @@ package QueOutfit.ManejoDeApisClima;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import org.joda.time.LocalDateTime;
+import org.joda.time.format.DateTimeFormat;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeParseException;
-import java.util.Date;
 
-public class DateTime {
+public class DODateTimeAccuWeather {
     @SerializedName("DateTime")
     @Expose
     private String dateTime;
@@ -48,29 +46,19 @@ public class DateTime {
     public Integer getEpochDateTime() {
         return epochDateTime;
     }
-    public DateTime getHour(){
-        DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss Z");
-        Date date = dateFormat.parse(dateTime);
+    public int getHour(){
+        try {
+            String pattern = "yyyy-MM-dd'T'HH:mm:ssZ";
+            LocalDateTime localDateTime = LocalDateTime.parse(dateTime, DateTimeFormat.forPattern(pattern));
+            return localDateTime.hourOfDay().get();
+        }
+        catch(Exception e){
+            throw new RuntimeException();
 
+        }
     }
     public void setEpochDateTime(Integer epochDateTime) {
         this.epochDateTime = epochDateTime;
-    }
-
-    public Integer getWeatherIcon() {
-        return weatherIcon;
-    }
-
-    public void setWeatherIcon(Integer weatherIcon) {
-        this.weatherIcon = weatherIcon;
-    }
-
-    public String getIconPhrase() {
-        return iconPhrase;
-    }
-
-    public void setIconPhrase(String iconPhrase) {
-        this.iconPhrase = iconPhrase;
     }
 
     public Boolean getIsDaylight() {
