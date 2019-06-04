@@ -5,7 +5,6 @@ public class Prenda {
     private ETrama trama;
     private Color colorPrimario;
     private Color colorSecundario;
-    private int TemperaturaMaxima;
 
     public Prenda(PrendaBase base,ETrama trama, Color colorPrimario) {
         this.base=base;
@@ -22,10 +21,11 @@ public class Prenda {
     public Categoria getCategoria(){
         return base.getCategoria();
     }
-    public String getNombre(){
-        return base.getNombre();
+
+    public ETipo getTipo(){
+        return base.getTipo();
     }
-    public int getTemperaturaMaxima(){
-        return base.getTemperaturaMaxima();
+    public EMaterial getMaterial(){
+        return base.getMaterial();
     }
 }

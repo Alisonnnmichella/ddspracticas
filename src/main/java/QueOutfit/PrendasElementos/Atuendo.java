@@ -14,9 +14,6 @@ public class Atuendo {
     }
 
     public void validarAtuendo() {
-        if (!(atuendo.size() == 4)) {
-            throw new AtuendoException("El atuendo no contiene exactamente 4 prendas");
-        }
         if (!contieneTodasLasCategorias()){
             throw new AtuendoException("Las prendas del atuendo no contienen todas una categoría diferente");
         }
@@ -49,5 +46,16 @@ public class Atuendo {
 
     public List <Prenda> getPrendas(){
         return atuendo;
+    }
+
+    public boolean puedeAgregarPrenda(Prenda prendanueva){
+        return  !atuendo.stream().map(prenda->prenda.getTipo()).collect(Collectors.toSet())
+               .contains(prendanueva.getTipo());
+
+    }
+    public void agregarPrenda(Prenda prenda){
+        if(!puedeAgregarPrenda(prenda))
+            throw new PrendaAcopladaException();
+        atuendo.add(prenda);
     }
 }

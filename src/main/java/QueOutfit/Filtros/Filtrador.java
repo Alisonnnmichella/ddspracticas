@@ -8,8 +8,13 @@ public class Filtrador {
     private ArrayList<Chequeo> filtro;
     public Filtrador(){
         filtro=new ArrayList<>();
-        filtro.add(new ChequeoPantalon());
-        filtro.add(new ChequeoRemera());
+        filtro.add(new ChequeoPantalonYShort());
+        filtro.add(new ChequeoRemeraYCamisa());
+        filtro.add(new ChequeoSweaterBufandaGorro());
+        filtro.add(new ChequeoZapatos());
+        filtro.add(new ChequeoAnteojosDeSol());
+        filtro.add(new ChequeoCampera());
+        filtro.add(new ChequeoGuantes());
     }
 
     public boolean pasaFiltro(PrendaBase base){

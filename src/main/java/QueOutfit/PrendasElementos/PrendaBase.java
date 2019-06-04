@@ -1,17 +1,20 @@
 package QueOutfit.PrendasElementos;
 
+import QueOutfit.Excepciones.PrendaBaseException;
 import QueOutfit.Filtros.Filtrador;
 
 public class PrendaBase {
     private ETipo tipo;
     private EMaterial material;
-    private int temperaturaMaxima;
-    private Filtrador filtrador;
-    public PrendaBase(ETipo tipo, EMaterial material,int temperaturaMaxima){
+    public PrendaBase(ETipo tipo, EMaterial material){
         this.tipo=tipo;
         this.material=material;
-        this.temperaturaMaxima=temperaturaMaxima;
-        filtrador=new Filtrador();
+       validacion();
+    }
+    public void validacion(){
+        Filtrador filtrador=new Filtrador();
+        if(!filtrador.pasaFiltro(this))
+            throw new PrendaBaseException();
     }
     public ETipo getTipo(){
         return tipo;
@@ -21,5 +24,4 @@ public class PrendaBase {
     public String getNombre(){
         return getCategoria().name();
     }
-    public int getTemperaturaMaxima(){return temperaturaMaxima;}
 }

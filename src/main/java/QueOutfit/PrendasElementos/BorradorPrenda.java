@@ -7,23 +7,14 @@ public class BorradorPrenda {
     private Color colorPrincipal;
     private Color colorSecundario;
     private ETrama trama;
-    private int temperatura;
     private ETipo tipo;
     private Filtrador filtrador;
     public BorradorPrenda(ETipo tipo){
+        this.tipo=tipo;
 
     }
     public EMaterial getMaterial() {
         return material;
-    }
-    public int getTemperaturaMaxima(){
-        return temperatura;
-    }
-    public void setTemperaturaMaxima(int temperatura){
-        this.temperatura=temperatura;
-    }
-    public ETipo getTipo() {
-        return tipo;
     }
 
     public void setMaterial(EMaterial material) {
@@ -51,11 +42,11 @@ public class BorradorPrenda {
     }
     public Prenda contruirPrenda(){
             if(!this.variablesValidas())
-                throw  new RuntimeException("Las variables aun no son válidas");
+                throw  new RuntimeException("Las variables aún no son válidas");
 
             if(colorSecundario==null)
-                return new Prenda(new PrendaBase(tipo,material,temperatura),trama, colorPrincipal);
-            return new Prenda(new PrendaBase(tipo,material,temperatura),trama,colorPrincipal,colorSecundario);
+                return new Prenda(new PrendaBase(tipo,material),trama, colorPrincipal);
+            return new Prenda(new PrendaBase(tipo,material),trama,colorPrincipal,colorSecundario);
     }
 
 

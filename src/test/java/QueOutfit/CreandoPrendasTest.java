@@ -16,7 +16,6 @@ public class CreandoPrendasTest {
         public void noSePuedeCrearUnaRemeraDeCuero(){
         remeraBorrador.setMaterial(EMaterial.CUERO);
         remeraBorrador.setColorPrincipal(Color.red());
-        remeraBorrador.setTemperaturaMaxima(35);
         remeraBorrador.contruirPrenda();
     }
     @Test

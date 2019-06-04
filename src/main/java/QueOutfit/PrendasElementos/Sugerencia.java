@@ -2,16 +2,12 @@ package QueOutfit.PrendasElementos;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 public class Sugerencia {
-    Clima clima;
-    public Sugerencia(Clima clima){
-        this.clima=clima;
-    }
+
     public Set<Atuendo> obtenerTodosLosAtuendos(Guardarropa guardarropa){
        return combinaciones(guardarropa).stream()
                .map(listaDePrendas->new Atuendo(listaDePrendas)).collect(Collectors.toSet());
@@ -37,20 +33,23 @@ public class Sugerencia {
         return productoCartesianoPrendasPorCategoria(prendas);
 
     }
-
-    public Set<List<Prenda>> combinacionesPorClima(Guardarropa guardarropa){
-        Set<Prenda> prendas=guardarropa.getPrendas()
-                .stream().filter(prenda->prenda.getTemperaturaMaxima()>=clima.getTemperatura())
+    public List<Prenda>listaDePrendas(Prenda prenda,List<Prenda>prendas){
+        List<Prenda>prendasmasuno=prendas;
+        prendasmasuno.add(prenda);
+        return prendasmasuno;
+    }
+    public Set<Atuendo> combinacionesParaUnAtuendo(Atuendo atuendo,Guardarropa guardarropa){
+        Set<Prenda>prendas= guardarropa.getPrendas().stream().filter(prenda->! atuendo.getPrendas().contains(prenda))
                 .collect(Collectors.toSet());
-        return productoCartesianoPrendasPorCategoria(prendas);
+        prendas=this.prendasPorCategoria(prendas,Categoria.SUPERIOR);
+        return prendas.stream().filter(prenda->atuendo.puedeAgregarPrenda(prenda))
+                    .map(prenda->new Atuendo(listaDePrendas(prenda,atuendo.getPrendas())))
+                    .collect(Collectors.toSet());
     }
 
-    public Set <Atuendo> atuendosSegunClima(Guardarropa guardarropa){
-        return combinacionesPorClima(guardarropa).stream()
-                .map(atuendo->new Atuendo(atuendo)).collect(Collectors.toSet());
-        }
-
     }
+
+
 
 
 

@@ -1,6 +1,5 @@
 package QueOutfit;
 
-import QueOutfit.ManigeJsonAccuWeather.ClimaJsonAccuWeather;
 import QueOutfit.PrendasElementos.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import static org.hamcrest.Matchers.containsInAnyOrder;
 
 public class SugerenciasTest {
     private Prenda remera;
@@ -21,7 +19,7 @@ public class SugerenciasTest {
     private Prenda guantes;
     private Prenda anteojosDeSol;
     private Prenda bufanda;
-    private Guardarropa guardarropa = new Guardarropa();
+    private Guardarropa guardarropa;
     private ArrayList<Prenda> comb1;
     private ArrayList<Prenda> comb2;
     private ArrayList<Prenda> comb3;
@@ -44,18 +42,19 @@ public class SugerenciasTest {
 
     @Before
     public void initialize() {
-        gorro = new Prenda(new PrendaBase(ETipo.GORRO, EMaterial.ALGODON, 13), ETrama.ESTAMPADA, Color.red());
-        guantes = new Prenda(new PrendaBase(ETipo.GUANTES, EMaterial.CUERO, 13), ETrama.LISA, Color.red());
-        anteojosDeSol = new Prenda(new PrendaBase(ETipo.ANTEOJOS_DE_SOL, EMaterial.PLASTICO, 40), ETrama.LISA, Color.verde());
+        guardarropa = new Guardarropa();
+        gorro = new Prenda(new PrendaBase(ETipo.GORRO, EMaterial.LANA), ETrama.ESTAMPADA, Color.red());
+        guantes = new Prenda(new PrendaBase(ETipo.GUANTES, EMaterial.CUERO), ETrama.LISA, Color.red());
+        anteojosDeSol = new Prenda(new PrendaBase(ETipo.ANTEOJOS_DE_SOL, EMaterial.PLASTICO), ETrama.LISA, Color.verde());
 
-        bufanda = new Prenda(new PrendaBase(ETipo.BUFANDA, EMaterial.LANA, 13), ETrama.RAYADA, Color.blanco());
+        bufanda = new Prenda(new PrendaBase(ETipo.BUFANDA, EMaterial.LANA), ETrama.RAYADA, Color.blanco());
 
-        remera = new Prenda(new PrendaBase(ETipo.REMERA, EMaterial.ALGODON, 40), ETrama.LISA, Color.gris());
-        camisa = new Prenda(new PrendaBase(ETipo.CAMISA, EMaterial.ALGODON, 40), ETrama.LISA, Color.blanco());
-        pantalon = new Prenda(new PrendaBase(ETipo.PANTALON, EMaterial.ACETATO, 40), ETrama.LISA, Color.gris());
-        Prenda shorts = new Prenda(new PrendaBase(ETipo.SHORT, EMaterial.PIQUE, 50), ETrama.LISA, Color.verde());
-        zapatos = new Prenda(new PrendaBase(ETipo.ZAPATOS, EMaterial.CUERO, 40), ETrama.LISA, Color.negro());
-        zapatillas = new Prenda(new PrendaBase(ETipo.ZAPATILLAS, EMaterial.CUERINA, 40), ETrama.LISA, Color.blanco());
+        remera = new Prenda(new PrendaBase(ETipo.REMERA, EMaterial.ALGODON), ETrama.LISA, Color.gris());
+        camisa = new Prenda(new PrendaBase(ETipo.CAMISA, EMaterial.ALGODON), ETrama.LISA, Color.blanco());
+        pantalon = new Prenda(new PrendaBase(ETipo.PANTALON, EMaterial.ACETATO), ETrama.LISA, Color.gris());
+        Prenda shorts = new Prenda(new PrendaBase(ETipo.SHORT, EMaterial.PIQUE), ETrama.LISA, Color.verde());
+        zapatos = new Prenda(new PrendaBase(ETipo.ZAPATOS, EMaterial.CUERO), ETrama.LISA, Color.negro());
+        zapatillas = new Prenda(new PrendaBase(ETipo.ZAPATILLAS, EMaterial.CUERINA), ETrama.LISA, Color.blanco());
 
         guardarropa.agregarPrenda(remera);
         guardarropa.agregarPrenda(camisa);
@@ -67,8 +66,6 @@ public class SugerenciasTest {
 
         guardarropa.agregarPrenda(bufanda);
         guardarropa.agregarPrenda(gorro);
-        clima = new ClimaJsonAccuWeather();
-        sugerencia = new Sugerencia(clima);
 
         comb1 = new ArrayList<>();
         comb2 = new ArrayList<>();
@@ -127,6 +124,7 @@ public class SugerenciasTest {
         comb8.add(zapatillas);
         comb8.add(gorro);
         at8 = new Atuendo(comb8);
+        sugerencia= new Sugerencia();
     }
 
     @Test
@@ -147,12 +145,4 @@ public class SugerenciasTest {
         assert (atuendos.size() == 8);
     }
 
-    @Test
-    public void enLosAtuendosSugeridosSegunElClimaNoHayPrendaQueNoSeaAptaParaTemperaturaActual() {
-        clima = new ClimaJsonAccuWeather();
-        Set<Atuendo> atuendos = sugerencia.atuendosSegunClima(guardarropa);
-        //List<Prenda> prendas=atuendos.
-
-
-    }
 }
