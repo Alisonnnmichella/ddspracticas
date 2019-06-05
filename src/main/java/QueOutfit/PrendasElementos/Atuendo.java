@@ -1,6 +1,8 @@
 package QueOutfit.PrendasElementos;
 
 import QueOutfit.Excepciones.AtuendoException;
+import QueOutfit.Excepciones.PrendaAcopladaException;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -52,10 +54,5 @@ public class Atuendo {
         return  !atuendo.stream().map(prenda->prenda.getTipo()).collect(Collectors.toSet())
                .contains(prendanueva.getTipo());
 
-    }
-    public void agregarPrenda(Prenda prenda){
-        if(!puedeAgregarPrenda(prenda))
-            throw new PrendaAcopladaException();
-        atuendo.add(prenda);
     }
 }

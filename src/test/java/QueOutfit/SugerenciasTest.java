@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 
 public class SugerenciasTest {
@@ -144,5 +145,24 @@ public class SugerenciasTest {
         Set<Atuendo> atuendos = sugerencia.obtenerTodosLosAtuendos(guardarropa);
         assert (atuendos.size() == 8);
     }
+    @Test
+    public void verificoCantidadDeSugerencias() {
+        FactoryClothes factory = new FactoryClothes();
+        Atuendo atuendo = factory.getAtuendoEjemplo();
+        Guardarropa guardarropa = new Guardarropa();
+        atuendo.getPrendas().stream().forEach(prenda -> guardarropa.agregarPrenda(prenda));
+        guardarropa.agregarPrenda(factory.getSweater());
+        guardarropa.agregarPrenda(factory.getZapatosNegros());
+        guardarropa.agregarPrenda(factory.getRemeraBlanca());
+        guardarropa.agregarPrenda(factory.getCamisa());
+        guardarropa.agregarPrenda(factory.getCamperaJean());
 
+        Set<Atuendo> atuendos = sugerencia.combinacionesSuperioresParaUnAtuendo(atuendo, guardarropa);
+        for (Atuendo a : atuendos) {
+            a.getPrendas().forEach(prenda -> System.out.println(prenda.getTipo()));
+            System.out.println("\n");
+        }
+
+
+    }
 }

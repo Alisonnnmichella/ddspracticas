@@ -41,11 +41,15 @@ public class FactoryClothes {
         return  new Prenda(base,ETrama.LISA,Color.blanco());
     }
     public Prenda getZapatosNegros(){
-        base= new PrendaBase(ETipo.ZAPATOS,EMaterial.ALGODON);
+        base= new PrendaBase(ETipo.ZAPATOS,EMaterial.CUERO);
         return  new Prenda(base,ETrama.LISA,Color.negro());
     }
     public Prenda getAnteojosDeSol(){
         base= new PrendaBase(ETipo.ANTEOJOS_DE_SOL,EMaterial.PLASTICO);
+        return  new Prenda(base,ETrama.LISA,Color.negro());
+    }
+    public Prenda getCamisa(){
+        base= new PrendaBase(ETipo.CAMISA,EMaterial.SEDA);
         return  new Prenda(base,ETrama.LISA,Color.negro());
     }
     public Atuendo getAtuendoEjemplo(){

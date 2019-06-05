@@ -28,4 +28,7 @@ public class Prenda {
     public EMaterial getMaterial(){
         return base.getMaterial();
     }
+    public String nombre(){
+       return  this.getTipo().name();
+    }
 }
