@@ -3,6 +3,7 @@ package QueOutfit.PrendasElementos;
 import QueOutfit.Excepciones.AtuendoException;
 import QueOutfit.Excepciones.PrendaAcopladaException;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -47,7 +48,10 @@ public class Atuendo {
     }
 
     public List <Prenda> getPrendas(){
-        return atuendo;
+        List <Prenda> prendas= new ArrayList<>();
+        atuendo.forEach(prenda->prendas.add(prenda));
+        return prendas;
+
     }
 
     public boolean puedeAgregarPrenda(Prenda prendanueva){

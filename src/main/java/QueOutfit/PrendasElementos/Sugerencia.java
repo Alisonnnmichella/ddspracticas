@@ -2,8 +2,6 @@ package QueOutfit.PrendasElementos;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
-
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -39,26 +37,14 @@ public class Sugerencia {
     public List<Prenda>listaDePrendas(Prenda prenda,List<Prenda>prendas){
         List<Prenda>prendasmasuno=prendas;
         prendasmasuno.add(prenda);
-        for(Prenda prend:prendasmasuno)
-        System.out.println(prend.nombre());
-        System.out.println("\n--------------------\n");
-
         return prendasmasuno;
     }
     public Set<Atuendo> combinacionesSuperioresParaUnAtuendo(Atuendo atuendo,Guardarropa guardarropa) {
-        Set<Atuendo> atuendos=new HashSet<>();
-        List<Prenda>prendasAtuendo=atuendo.getPrendas();
         Set<Prenda> prendas = this.prendasPorCategoria(guardarropa.getPrendas(), Categoria.SUPERIOR);
-        prendas = prendas.stream()
+        return  prendas.stream()
                 .filter(prenda -> atuendo.puedeAgregarPrenda(prenda))
+                .map(prenda->new Atuendo(listaDePrendas(prenda,atuendo.getPrendas())))
                 .collect(Collectors.toSet());
-        for(Prenda prenda:prendas){
-            atuendos.add(new Atuendo(listaDePrendas(prenda,prendasAtuendo)));
-
-        }
-
-
-        return atuendos;
     }
 
 
