@@ -56,7 +56,7 @@ public class Atuendo {
 
     }
 
-    public boolean puedeAgregarPrenda(Prenda prendanueva){
+    public boolean compatibleConPrenda(Prenda prendanueva){
         return  !atuendo.stream().map(prenda->prenda.getTipo()).collect(Collectors.toSet())
                .contains(prendanueva.getTipo());
 

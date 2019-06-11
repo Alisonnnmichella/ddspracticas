@@ -2,13 +2,11 @@ package QueOutfit;
 
 import QueOutfit.Excepciones.RetrofitServerException;
 import QueOutfit.ManageApiAccuWeather.Connection;
-import QueOutfit.ManageApiAccuWeather.DTODatosClimaticos;
+import QueOutfit.ManageApiAccuWeather.DTODatoClimatico;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 import retrofit2.Response;
-import org.mockito.Mockito.*;
-import retrofit2.Retrofit;
 
 import java.util.List;
 
@@ -16,10 +14,10 @@ import static org.mockito.Mockito.when;
 
 public class ConexionAAccuWeatherTest {
     Connection connection;
-    List<DTODatosClimaticos> datos;
+    List<DTODatoClimatico> datos;
 
     @Mock
-    Response<List<DTODatosClimaticos>> response;
+    Response<List<DTODatoClimatico>> response;
 
 
     @Before

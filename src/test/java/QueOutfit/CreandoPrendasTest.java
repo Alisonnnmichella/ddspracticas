@@ -4,7 +4,7 @@ import QueOutfit.PrendasElementos.*;
 import org.junit.Test;
 
 public class CreandoPrendasTest {
-    private BorradorPrenda remeraBorrador= new BorradorPrenda(ETipo.REMERA);
+    private BuilderPrenda remeraBorrador= new BuilderPrenda(ETipo.REMERA);
 
     @Test(expected = RuntimeException.class)
     public void noSePuedeCrearUnaPrendaEnBorradorConConstructorNull(){

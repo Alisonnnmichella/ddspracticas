@@ -2,14 +2,14 @@ package QueOutfit.PrendasElementos;
 
 import QueOutfit.Filtros.Filtrador;
 
-public class BorradorPrenda {
+public class BuilderPrenda {
     private EMaterial material;
     private Color colorPrincipal;
     private Color colorSecundario;
     private ETrama trama;
     private ETipo tipo;
     private Filtrador filtrador;
-    public BorradorPrenda(ETipo tipo){
+    public BuilderPrenda(ETipo tipo){
         this.tipo=tipo;
 
     }

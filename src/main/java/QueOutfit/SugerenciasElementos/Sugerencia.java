@@ -1,10 +1,13 @@
 package QueOutfit.SugerenciasElementos;
 
+import QueOutfit.Clima.Clima;
 import QueOutfit.PrendasElementos.Categoria;
 import QueOutfit.PrendasElementos.Guardarropa;
 import QueOutfit.PrendasElementos.Prenda;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
+import org.joda.time.DateTime;
+
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -44,9 +47,13 @@ public class Sugerencia {
     public Set<Atuendo> superposicionSuperiorParaUnAtuendo(Atuendo atuendo,Guardarropa guardarropa) {
         Set<Prenda> prendas = this.prendasPorCategoria(guardarropa.getPrendas(), Categoria.SUPERIOR);
         return  prendas.stream()
-                .filter(prenda -> atuendo.puedeAgregarPrenda(prenda))
+                .filter(prenda -> atuendo.compatibleConPrenda(prenda))
                 .map(prenda->new Atuendo(listaDePrendas(prenda,atuendo.getPrendas())))
                 .collect(Collectors.toSet());
+    }
+    public void  sugerenciaSegunClimaDeFechaEspecificada(Clima clima, DateTime datetime ){
+        double temperatura=clima.getTemperaturaEnCelcius(datetime);
+
     }
 
 

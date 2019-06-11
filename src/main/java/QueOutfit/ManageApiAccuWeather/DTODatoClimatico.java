@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 
-public class DTODatosClimaticos {
+public class DTODatoClimatico {
 
     @SerializedName("DateTime")
     @Expose
@@ -15,9 +15,6 @@ public class DTODatosClimaticos {
     @Expose
     private DTOTemperatureAccuWeather temperature;
 
-    public String getDateTime() {
-        return dateTime;
-    }
 
     public void setDateTime(String dateTime) {
         this.dateTime = dateTime;
@@ -31,13 +28,14 @@ public class DTODatosClimaticos {
         this.temperature = temperature;
     }
 
-    public DateTime getLocalDateTime() {
+    public DateTime getDateTime() {
         try {
             String pattern = "yyyy-MM-dd'T'HH:mm:ssZ";
-            DateTime localDateTime = DateTime.parse(dateTime, DateTimeFormat.forPattern(pattern));
-            return localDateTime;
+            DateTime date = DateTime.parse(dateTime, DateTimeFormat.forPattern(pattern));
+            return date;
             }catch (Exception e) {
                 throw new AccuWeatherException("No se pudo parsear " + dateTime);
             }
     }
+
 }

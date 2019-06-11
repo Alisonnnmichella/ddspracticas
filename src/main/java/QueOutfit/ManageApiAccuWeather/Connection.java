@@ -22,11 +22,11 @@ public class Connection {
         service= retrofit.create(RetrofitClimaService.class);
     }
 
-    public  List<DTODatosClimaticos> getDatos(String apikey) {
-        Call<List<DTODatosClimaticos>> call = service.listWeather(
+    public  List<DTODatoClimatico> getDatos(String apikey) {
+        Call<List<DTODatoClimatico>> call = service.listWeather(
                 apikey, "false", "false");
         try {
-            Response<List<DTODatosClimaticos>> response = call.execute();
+            Response<List<DTODatoClimatico>> response = call.execute();
             if(!response.isSuccessful()){
                 handleError(response);
             }
@@ -38,7 +38,7 @@ public class Connection {
 
     }
 
-    public void handleError(Response<List<DTODatosClimaticos>> response){
+    public void handleError(Response<List<DTODatoClimatico>> response){
         ErrorUtils errorUtils=new ErrorUtils();
         APIError apiError=errorUtils.parseError(response);
         throw new RetrofitServerException(apiError.getName());

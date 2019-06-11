@@ -1,6 +1,6 @@
 package QueOutfit.AccuWeatherTests;
 import QueOutfit.Excepciones.ArchivoNoEncontrado;
-import QueOutfit.ManageApiAccuWeather.DTODatosClimaticos;
+import QueOutfit.ManageApiAccuWeather.DTODatoClimatico;
 import com.google.gson.Gson;
 
 import java.io.*;
@@ -10,14 +10,14 @@ import java.util.stream.Collectors;
 
 public class ClimaJsonAccuWeather{
     public ClimaJsonAccuWeather(){}
-   public static Set<DTODatosClimaticos> getDatosClimaticos() {
-        DTODatosClimaticos[] datos;
+   public static Set<DTODatoClimatico> getDatosClimaticos() {
+        DTODatoClimatico[] datos;
         Gson gson = new Gson();
         BufferedReader br = null;
         try{
             String path="./src/test/java/QueOutfit/AccuWeatherTests/AccuClima.json";
             br = new BufferedReader(new FileReader(path));
-            datos = gson.fromJson(br, DTODatosClimaticos[].class);
+            datos = gson.fromJson(br, DTODatoClimatico[].class);
             return Arrays.stream(datos).collect(Collectors.toSet());
         } catch  (FileNotFoundException e){
             e.printStackTrace();
