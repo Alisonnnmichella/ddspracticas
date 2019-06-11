@@ -1,7 +1,8 @@
 package QueOutfit;
 
 import QueOutfit.PrendasElementos.*;
-import org.junit.Assert;
+import QueOutfit.SugerenciasElementos.Atuendo;
+import QueOutfit.SugerenciasElementos.Sugerencia;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -156,7 +157,7 @@ public class SugerenciasTest {
         guardarropa.agregarPrenda(factory.getRemeraBlanca());
         guardarropa.agregarPrenda(factory.getCamisa());
         guardarropa.agregarPrenda(factory.getCamperaJean());
-        Set<Atuendo> atuendos = sugerencia.combinacionesSuperioresParaUnAtuendo(atuendo, guardarropa);
+        Set<Atuendo> atuendos = sugerencia.superposicionSuperiorParaUnAtuendo(atuendo, guardarropa);
         assert(atuendos.size()==3);
 
     }

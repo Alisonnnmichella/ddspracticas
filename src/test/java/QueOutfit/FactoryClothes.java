@@ -1,6 +1,7 @@
 package QueOutfit;
 
 import QueOutfit.PrendasElementos.*;
+import QueOutfit.SugerenciasElementos.Atuendo;
 
 import java.util.ArrayList;
 import java.util.List;

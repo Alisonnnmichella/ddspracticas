@@ -1,22 +1,33 @@
 package QueOutfit.PrendasElementos;
 
 public enum ETipo {
-        REMERA(Categoria.SUPERIOR,5),SWEATER(Categoria.SUPERIOR,8),CALZATERMICA(Categoria.INFERIOR,5),SHORT(Categoria.INFERIOR,5),PANTALON(Categoria.INFERIOR,7),
-        ZAPATILLAS(Categoria.CALZADO,7),CAMPERA(Categoria.SUPERIOR,6),BUZO(Categoria.SUPERIOR,9),ZAPATOS(Categoria.CALZADO,10),
-        CHOMBA(Categoria.SUPERIOR,5),CAMISA(Categoria.SUPERIOR,7),PANTALON_DE_VESTIR(Categoria.INFERIOR,7),
-        GUANTES(Categoria.ACCESORIO,2),MEDIAS(Categoria.ACCESORIO,2),BUFANDA(Categoria.ACCESORIO,2),GORRO(Categoria.ACCESORIO,3),
-        ANTEOJOS_DE_SOL(Categoria.ACCESORIO,0);
+        REMERA(Categoria.SUPERIOR,NivelAbrigo.LIVIANO),SWEATER(Categoria.SUPERIOR,NivelAbrigo.PESADO)
+        ,CALZATERMICA(Categoria.INFERIOR,NivelAbrigo.PESADO),
+        SHORT(Categoria.INFERIOR,NivelAbrigo.LIVIANO),
+        PANTALON(Categoria.INFERIOR,NivelAbrigo.MEDIANO),
+        ZAPATILLAS(Categoria.CALZADO,NivelAbrigo.LIVIANO),
+        CAMPERA(Categoria.SUPERIOR,NivelAbrigo.MEDIANO),
+        BUZO(Categoria.SUPERIOR,NivelAbrigo.MEDIANO),
+        ZAPATOS(Categoria.CALZADO,NivelAbrigo.MEDIANO),
+        CHOMBA(Categoria.SUPERIOR,NivelAbrigo.MEDIANO),
+        CAMISA(Categoria.SUPERIOR,NivelAbrigo.LIVIANO),
+        PANTALON_DE_VESTIR(Categoria.INFERIOR,NivelAbrigo.LIVIANO),
+        GUANTES(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
+        MEDIAS(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
+        BUFANDA(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
+        GORRO(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
+        ANTEOJOS_DE_SOL(Categoria.ACCESORIO,NivelAbrigo.NULO);
        private Categoria categoria;
-       private int intensidadCalor;
-       private ETipo(Categoria categoria,int intensidadCalor){
+       private NivelAbrigo nivelAbrigo;
+       private ETipo(Categoria categoria,NivelAbrigo nivelAbrigo){
                this.categoria=categoria;
-               this.intensidadCalor=intensidadCalor;
+               this.nivelAbrigo=nivelAbrigo;
        }
 
     public Categoria getCategoria() {
         return categoria;
     }
-    public int getIntensidadCalor(){
-           return intensidadCalor;
+    public NivelAbrigo getNivelAbrigo(){
+           return nivelAbrigo;
     }
 }

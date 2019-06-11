@@ -21,4 +21,5 @@ public class Usuario {
     public HashSet <Guardarropa> obtenerGuardarropas(){
         return guardarropas;
     }
+
 }

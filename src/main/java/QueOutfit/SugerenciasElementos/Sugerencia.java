@@ -1,8 +1,10 @@
-package QueOutfit.PrendasElementos;
+package QueOutfit.SugerenciasElementos;
 
+import QueOutfit.PrendasElementos.Categoria;
+import QueOutfit.PrendasElementos.Guardarropa;
+import QueOutfit.PrendasElementos.Prenda;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Sets;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -14,7 +16,7 @@ public class Sugerencia {
                .map(listaDePrendas->new Atuendo(listaDePrendas)).collect(Collectors.toSet());
     }
 
-     public Set<Prenda> prendasPorCategoria(Set<Prenda> prendas,Categoria categoria){
+     public Set<Prenda> prendasPorCategoria(Set<Prenda> prendas, Categoria categoria){
         Set subconjunto= prendas.stream()
             .filter(prenda->prenda.getCategoria()==categoria)
             .collect(Collectors.toSet());
@@ -39,13 +41,14 @@ public class Sugerencia {
         prendasmasuno.add(prenda);
         return prendasmasuno;
     }
-    public Set<Atuendo> combinacionesSuperioresParaUnAtuendo(Atuendo atuendo,Guardarropa guardarropa) {
+    public Set<Atuendo> superposicionSuperiorParaUnAtuendo(Atuendo atuendo,Guardarropa guardarropa) {
         Set<Prenda> prendas = this.prendasPorCategoria(guardarropa.getPrendas(), Categoria.SUPERIOR);
         return  prendas.stream()
                 .filter(prenda -> atuendo.puedeAgregarPrenda(prenda))
                 .map(prenda->new Atuendo(listaDePrendas(prenda,atuendo.getPrendas())))
                 .collect(Collectors.toSet());
     }
+
 
 
     }

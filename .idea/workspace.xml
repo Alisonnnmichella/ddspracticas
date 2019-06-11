@@ -2,12 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="803aeed8-ec08-482a-9501-1adbd108d40e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Clima/Clima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/AccuWeatherException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/ArchivoNoEncontrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitServerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/APIError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DatoClimatico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/ErrorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/NivelAbrigo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/APIAccuWeatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/ClimaJsonAccuWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Atuendo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Atuendo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccuClima.json" beforeDir="false" afterPath="$PROJECT_DIR$/AccuClima.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/AccuClima.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/AccuClima.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/ClimaJsonAccuWeather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/DODateTimeAccuWeather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/Temperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/Atuendo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/Atuendo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/ManageApiAccuWeather/Connection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/ManageApiAccuWeather/Connection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/ManageJsonAccuWeather/ClimaJsonAccuWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/ManageJsonAccuWeather/DODateTimeAccuWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/ManageJsonAccuWeather/Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/ETipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/ETipo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/Sugerencia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QueOutfit/PrendasElementos/Sugerencia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/QueOutfit/ConexionAAccuWeatherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QueOutfit/ConexionAAccuWeatherTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/QueOutfit/SugerenciasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QueOutfit/SugerenciasTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,35 +54,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Atuendo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +80,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -81,34 +92,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManejoDeApisClima/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManejoDeApisClima/DateTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManejoDeApisClima/DODateTimeAccuWeather.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ClimaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManejoDeApisClima/ClimaApiAcuWeather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeJsonAccuWeather/AccuClima.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/ResponseClima.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/TemperatureAccuWeather.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/RetrofitClimaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/Conection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/DTODatosClimaticos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/DTOTemperatureAccuWeather.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ConeccionAAccuWeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/WeatherResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Conection.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetroFitException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/APIError.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/ErrorUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/PrendaBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoPantalon.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Institutos/InstitutoJohn.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Institutos/InstitutoSanJuan.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoSweater.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoZapatos.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoAnteojosDeSol.java" />
@@ -130,9 +118,39 @@
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoRemeraYCamisa.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Prenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Atuendo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/NivelAbrigo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTOError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitServerException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/APIError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/ErrorUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/AccuWeatherException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/ArchivoNoEncontrado.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/ClimaJsonAccuWeather.java" />
+        <option value="$PROJECT_DIR$/AccuClima.json" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ManageJsonAccuWeather/AccuClima.json" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ManageJsonAccuWeather/APIAccuWeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/ManageJsonAccuWeather/ClimaJsonAccuWeather.java" />
+        <option value="$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/ClimaJsonAccuWeather.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Clima/DatoClimatico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Clima/Clima.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DatoClimatico.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -148,6 +166,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,21 +207,46 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
-              <item name="PrendasElementos" type="462c0819:PsiDirectoryNode" />
+              <item name="Clima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueOutfit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueOutfit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QueOutfit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="QueOutfit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559744062651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560269078518" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="QueOutfit" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,8 +260,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SugerenciasTest.atuendosSugerencias">
-    <configuration name="GuardarropaTest.inicializacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.APIAccuWeatherTest.parsearDatosJson">
+    <configuration name="APIAccuWeatherTest.parsearDatosJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueOutfit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueOutfit.AccuWeatherTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QueOutfit.AccuWeatherTests" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.AccuWeatherTests.APIAccuWeatherTest" />
+      <option name="METHOD_NAME" value="parsearDatosJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConexionAAccuWeatherTest.pruebaDeConexion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QueOutfit" />
       <extension name="coverage">
         <pattern>
@@ -226,8 +286,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.GuardarropaTest" />
-      <option name="METHOD_NAME" value="inicializacion" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.ConexionAAccuWeatherTest" />
+      <option name="METHOD_NAME" value="pruebaDeConexion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConexionAAccuWeatherTest.pruebaDeconexion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QueOutfit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QueOutfit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="QueOutfit" />
+      <option name="MAIN_CLASS_NAME" value="QueOutfit.ConexionAAccuWeatherTest" />
+      <option name="METHOD_NAME" value="pruebaDeconexion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,38 +320,6 @@
       <option name="PACKAGE_NAME" value="QueOutfit" />
       <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
       <option name="METHOD_NAME" value="atuendosSugerencias" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SugerenciasTest.verificaCantidadCombinaciones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueOutfit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueOutfit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
-      <option name="METHOD_NAME" value="verificaCantidadCombinaciones" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SugerenciasTest.verificoCantidadCombinacionesEnterizos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QueOutfit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="QueOutfit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="QueOutfit" />
-      <option name="MAIN_CLASS_NAME" value="QueOutfit.SugerenciasTest" />
-      <option name="METHOD_NAME" value="verificoCantidadCombinacionesEnterizos" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -299,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.APIAccuWeatherTest.parsearDatosJson" />
+        <item itemvalue="JUnit.ConexionAAccuWeatherTest.pruebaDeconexion" />
+        <item itemvalue="JUnit.ConexionAAccuWeatherTest.pruebaDeConexion" />
         <item itemvalue="JUnit.SugerenciasTest.atuendosSugerencias" />
         <item itemvalue="JUnit.SugerenciasTest.verificoCantidadDeSugerencias" />
-        <item itemvalue="JUnit.GuardarropaTest.inicializacion" />
-        <item itemvalue="JUnit.SugerenciasTest.verificoCantidadCombinacionesEnterizos" />
-        <item itemvalue="JUnit.SugerenciasTest.verificaCantidadCombinaciones" />
       </list>
     </recent_temporary>
   </component>
@@ -321,35 +365,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SugerenciasTest_verificoCantidadDeSugerencias - 2019.06.05 at 09h 46m 01s.xml">
-      <configuration name="SugerenciasTest.verificoCantidadDeSugerencias" configurationId="JUnit" />
+    <history-entry file="ConexionAAccuWeatherTest_pruebaDeconexion - 2019.06.08 at 10h 45m 00s.xml">
+      <configuration name="ConexionAAccuWeatherTest.pruebaDeconexion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_verificoCantidadDeSugerencias - 2019.06.05 at 09h 48m 30s.xml">
-      <configuration name="SugerenciasTest.verificoCantidadDeSugerencias" configurationId="JUnit" />
+    <history-entry file="ConexionAAccuWeatherTest_pruebaDeconexion - 2019.06.08 at 12h 21m 19s.xml">
+      <configuration name="ConexionAAccuWeatherTest.pruebaDeconexion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_verificoCantidadDeSugerencias - 2019.06.05 at 10h 00m 04s.xml">
-      <configuration name="SugerenciasTest.verificoCantidadDeSugerencias" configurationId="JUnit" />
+    <history-entry file="ConexionAAccuWeatherTest_pruebaDeconexion - 2019.06.09 at 16h 16m 48s.xml">
+      <configuration name="ConexionAAccuWeatherTest.pruebaDeconexion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_verificoCantidadDeSugerencias - 2019.06.05 at 10h 01m 02s.xml">
-      <configuration name="SugerenciasTest.verificoCantidadDeSugerencias" configurationId="JUnit" />
+    <history-entry file="ConexionAAccuWeatherTest_pruebaDeconexion - 2019.06.09 at 16h 19m 55s.xml">
+      <configuration name="ConexionAAccuWeatherTest.pruebaDeconexion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 10h 16m 59s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 39m 07s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 10h 36m 46s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 41m 03s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 10h 58m 23s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 43m 39s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 11h 02m 26s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 43m 57s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 11h 03m 26s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 45m 39s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SugerenciasTest_atuendosSugerencias - 2019.06.05 at 11h 04m 51s.xml">
-      <configuration name="SugerenciasTest.atuendosSugerencias" configurationId="JUnit" />
+    <history-entry file="APIAccuWeatherTest_parsearDatosJson - 2019.06.11 at 12h 49m 11s.xml">
+      <configuration name="APIAccuWeatherTest.parsearDatosJson" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -361,7 +405,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2832792" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29301947" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -369,7 +413,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32768363" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.33898306" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.33898306" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39548022" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -384,6 +428,35 @@
       <window_info anchor="right" id="Coverage" order="7" show_stripe_button="false" side_tool="true" weight="0.32942098" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29301947" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32935154" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32768363" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32768363" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.33898306" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39548022" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="7" show_stripe_button="false" side_tool="true" weight="0.32942098" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="SHOW_OTHER_BRANCHES" value="true" />
@@ -401,138 +474,32 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>response</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>service</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>call</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>retrofit2.OkHttpCall</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>response.errorBody()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="369" selection-start-line="369" selection-end-line="369" />
-          <folding>
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2966#2967#0" expanded="true" />
-            <element signature="e#10310#10449#0" expanded="true" />
-            <element signature="e#10448#10449#0" expanded="true" />
-            <element signature="e#11040#11204#0" expanded="true" />
-            <element signature="e#11203#11204#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/RetrofitClimaService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/DTODatosClimaticos.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/DTOTemperatureAccuWeather.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeJsonAccuWeather/ClimaJsonAccuWeather.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/WeatherResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManigeApiAccuWeather/Conection.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/RetrofitClimaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/ErrorUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTOTemperatureAccuWeather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/APIError.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Clima.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/EMaterial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETrama.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Institutos/InstitutoSanJuan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Institutos/InstitutoJohn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Categoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoAnteojosDeSol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/BorradorPrenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoPantalonYShort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Guardarropa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -571,16 +538,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/ClimaTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Filtros/ChequeoSweaterBufandaGorro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -595,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -651,31 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#1464#1658#0" expanded="true" />
-            <element signature="e#1657#1658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Prenda.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -695,13 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -747,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Atuendo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="612">
           <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -757,21 +675,258 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/SugerenciasTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+        <state relative-caret-position="2550">
+          <caret line="159" column="35" selection-start-line="159" selection-start-column="35" selection-end-line="159" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/NivelAbrigo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/ETipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTOError.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Sugerencia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/RetrofitServerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/ExpectException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/ErrorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/APIError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="330" selection-start-line="330" selection-end-line="330" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/AccuWeatherException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/PrendasElementos/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Excepciones/ArchivoNoEncontrado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageJsonAccuWeather/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccuClima.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/RetrofitClimaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/ConexionAAccuWeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/AccuClima.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="182" column="1" lean-forward="true" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/ClimaJsonAccuWeather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueOutfit/AccuWeatherTests/APIAccuWeatherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DatoClimatico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/DTODatosClimaticos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Clima/Clima.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/QueOutfit/ManageApiAccuWeather/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>

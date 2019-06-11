@@ -1,6 +1,7 @@
 package QueOutfit;
 
 import QueOutfit.PrendasElementos.*;
+import QueOutfit.SugerenciasElementos.Atuendo;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,7 +1,9 @@
-package QueOutfit.PrendasElementos;
+package QueOutfit.SugerenciasElementos;
 
 import QueOutfit.Excepciones.AtuendoException;
 import QueOutfit.Excepciones.PrendaAcopladaException;
+import QueOutfit.PrendasElementos.Categoria;
+import QueOutfit.PrendasElementos.Prenda;
 
 import java.util.ArrayList;
 import java.util.Arrays;

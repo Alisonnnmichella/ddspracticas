@@ -7,7 +7,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 50,
       "Unit": "F",
       "UnitType": 18
     },
@@ -22,7 +22,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 51,
       "Unit": "F",
       "UnitType": 18
     },
@@ -37,7 +37,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 52,
       "Unit": "F",
       "UnitType": 18
     },
@@ -52,7 +52,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 53,
       "Unit": "F",
       "UnitType": 18
     },
@@ -67,7 +67,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 54,
       "Unit": "F",
       "UnitType": 18
     },
@@ -82,7 +82,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 55,
       "Unit": "F",
       "UnitType": 18
     },
@@ -97,7 +97,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 56,
       "Unit": "F",
       "UnitType": 18
     },
@@ -127,7 +127,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 58,
       "Unit": "F",
       "UnitType": 18
     },
@@ -142,7 +142,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 59,
       "Unit": "F",
       "UnitType": 18
     },
@@ -157,7 +157,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
+      "Value": 60,
       "Unit": "F",
       "UnitType": 18
     },
@@ -172,22 +172,7 @@
     "IconPhrase": "Clear",
     "IsDaylight": false,
     "Temperature": {
-      "Value": 57,
-      "Unit": "F",
-      "UnitType": 18
-    },
-    "PrecipitationProbability": 0,
-    "MobileLink": "http://m.accuweather.com/en/ar/villa-vil/7984/",
-    "Link": "http://www.accuweather.com/en/ar/villa-vil/7984"
-  },
-  {
-    "DateTime": "2019-05-03T01:00:00-03:00",
-    "EpochDateTime": 1556856000,
-    "WeatherIcon": 33,
-    "IconPhrase": "Clear",
-    "IsDaylight": false,
-    "Temperature": {
-      "Value": 57,
+      "Value": 61,
       "Unit": "F",
       "UnitType": 18
     },
