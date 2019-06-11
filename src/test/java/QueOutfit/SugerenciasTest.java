@@ -1,5 +1,6 @@
 package QueOutfit;
 
+import QueOutfit.Clima.Clima;
 import QueOutfit.PrendasElementos.*;
 import QueOutfit.SugerenciasElementos.Atuendo;
 import QueOutfit.SugerenciasElementos.Sugerencia;
@@ -22,24 +23,8 @@ public class SugerenciasTest {
     private Prenda anteojosDeSol;
     private Prenda bufanda;
     private Guardarropa guardarropa;
-    private ArrayList<Prenda> comb1;
-    private ArrayList<Prenda> comb2;
-    private ArrayList<Prenda> comb3;
-    private ArrayList<Prenda> comb4;
-    private ArrayList<Prenda> comb5;
-    private ArrayList<Prenda> comb6;
-    private ArrayList<Prenda> comb7;
-    private ArrayList<Prenda> comb8;
     private Sugerencia sugerencia;
     private Set<List<Prenda>> result;
-    private Atuendo at1;
-    private Atuendo at2;
-    private Atuendo at3;
-    private Atuendo at4;
-    private Atuendo at5;
-    private Atuendo at6;
-    private Atuendo at7;
-    private Atuendo at8;
     private Clima clima;
 
     @Before
@@ -68,65 +53,6 @@ public class SugerenciasTest {
 
         guardarropa.agregarPrenda(bufanda);
         guardarropa.agregarPrenda(gorro);
-
-        comb1 = new ArrayList<>();
-        comb2 = new ArrayList<>();
-        comb3 = new ArrayList<>();
-        comb4 = new ArrayList<>();
-        comb5 = new ArrayList<>();
-        comb6 = new ArrayList<>();
-        comb7 = new ArrayList<>();
-        comb8 = new ArrayList<>();
-
-        comb1.add(remera);
-        comb1.add(pantalon);
-        comb1.add(zapatillas);
-        comb1.add(bufanda);
-        at1 = new Atuendo(comb1);
-
-        comb2.add(remera);
-        comb2.add(pantalon);
-        comb2.add(zapatillas);
-        comb2.add(gorro);
-
-        at2 = new Atuendo(comb2);
-
-        comb3.add(remera);
-        comb3.add(shorts);
-        comb3.add(zapatillas);
-        comb3.add(bufanda);
-        at3 = new Atuendo(comb3);
-
-        comb4.add(remera);
-        comb4.add(shorts);
-        comb4.add(zapatillas);
-        comb4.add(gorro);
-        at4 = new Atuendo(comb4);
-
-        comb5.add(camisa);
-        comb5.add(pantalon);
-        comb5.add(zapatos);
-        comb5.add(bufanda);
-        at5 = new Atuendo(comb5);
-
-        comb6.add(camisa);
-        comb6.add(pantalon);
-        comb6.add(zapatillas);
-        comb6.add(gorro);
-        at6 = new Atuendo(comb6);
-
-        comb7.add(camisa);
-        comb7.add(shorts);
-        comb7.add(zapatos);
-        comb7.add(bufanda);
-        at7 = new Atuendo(comb7);
-
-        comb8.add(camisa);
-        comb8.add(shorts);
-        comb8.add(zapatillas);
-        comb8.add(gorro);
-        at8 = new Atuendo(comb8);
-        sugerencia= new Sugerencia();
     }
 
     @Test

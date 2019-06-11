@@ -27,7 +27,7 @@ public class AtuendoTest {
     }
     @Test
     public void sePuedeAgregarUnaCampera(){
-        assert (atuendo.puedeAgregarPrenda(factoryClothes.getCamperaJean()));
+        assert (atuendo.compatibleConPrenda(factoryClothes.getCamperaJean()));
     }
 
 }
