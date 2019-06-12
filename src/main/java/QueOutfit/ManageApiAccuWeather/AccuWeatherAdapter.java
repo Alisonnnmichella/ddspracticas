@@ -11,37 +11,42 @@ public class AccuWeatherAdapter{
     List<DTODatoClimatico> datosClimaticos;
     String apikey;
     DateTime dateTimeInicio;
+
     public AccuWeatherAdapter(String apikey){
         this.apikey=apikey;
-        requestWeatherData();
-        dateTimeInicio=DateTime.now();
     }
 
-    public void requestWeatherData(){
+    public List<DTODatoClimatico> requestWeatherData(){
         Connection connection= new Connection();
-        datosClimaticos=connection.getDatos(apikey);
+        return connection.getDatos(apikey);
     }
+
     public boolean puedeObtenerTemperaturaEnFecha(DateTime dateTime){
         return  (horasDeDiferencia(dateTime,dateTimeInicio)>=0)
-             && (Math.abs(horasDeDiferencia(dateTime,DateTime.now()))<12);
+             && (Math.abs(horasDeDiferencia(dateTime,dateTimeActual()))<12);
     }
+
     public boolean esNecesarioHacerRequest(){
-        if(datosClimaticos==null)
+        if(datosClimaticos==null) {
+            dateTimeInicio=dateTimeActual();
             return true;
+        }
         return datosClimaticos.stream()
-               .allMatch(datoClimatico->horasDeDiferencia(datoClimatico.getDateTime(),DateTime.now())<0);
+               .allMatch(datoClimatico->horasDeDiferencia(datoClimatico.getDateTime(),dateTimeActual())<0);
     }
     private int horasDeDiferencia(DateTime dateTime1,DateTime dateTime2){
         return (Hours.hoursBetween(dateTime1,dateTime2).getHours());
     }
+
     private int minutosDeDiferencia(DateTime dateTime1,DateTime dateTime2){
         return (Minutes.minutesBetween(dateTime1,dateTime2).getMinutes());
     }
+
     public double obtenerTemperatura(DateTime dateTime) {
         if(!puedeObtenerTemperaturaEnFecha(dateTime))
             throw new AccuWeatherException("Fecha y/o horario incongruente con el sistema");
         if(esNecesarioHacerRequest())
-            requestWeatherData();
+            datosClimaticos=requestWeatherData();
           DTODatoClimatico datoClimatico =datosClimaticos.stream()
                 .filter(dato->Math.abs(minutosDeDiferencia(dateTime,dato.getDateTime()))<60)
                 .collect(Collectors.toList())
@@ -53,7 +58,9 @@ public class AccuWeatherAdapter{
     public double getTemperaturaEnCelcius(DateTime date){
        return  (obtenerTemperatura(date)-32.0)*(5.0/9.0);
     }
-
+    public DateTime dateTimeActual(){
+        return DateTime.now();
+    }
     public void setApikey(String apikey) {
         this.apikey = apikey;
     }

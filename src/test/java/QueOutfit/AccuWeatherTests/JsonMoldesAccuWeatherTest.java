@@ -4,11 +4,12 @@ import QueOutfit.ManageApiAccuWeather.DTODatoClimatico;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 public class JsonMoldesAccuWeatherTest {
-    Set<DTODatoClimatico> datosClimaticos;
+    List<DTODatoClimatico> datosClimaticos;
     @Before
     public void inicializar(){
        datosClimaticos= ClimaJsonAccuWeather.getDatosClimaticos();
