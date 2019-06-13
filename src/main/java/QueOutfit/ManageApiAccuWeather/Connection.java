@@ -23,6 +23,7 @@ public class Connection {
     }
 
     public  List<DTODatoClimatico> getDatos(String apikey) {
+        makeConnection();
         Call<List<DTODatoClimatico>> call = service.listWeather(
                 apikey, "false", "false");
         try {
