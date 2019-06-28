@@ -62,7 +62,7 @@ public class SugerenciasTest {
 
     @Test
     public void verificaCantidadCombinaciones() {
-        Set<List<Prenda>> combinaciones = sugerencia.combinaciones(guardarropa);
+        Set<List<Prenda>> combinaciones = sugerencia.combinacionesBasicas(guardarropa);
         assert (combinaciones.size() == 8);
     }
 
@@ -83,7 +83,7 @@ public class SugerenciasTest {
         guardarropa.agregarPrenda(factory.getRemeraBlanca());
         guardarropa.agregarPrenda(factory.getCamisa());
         guardarropa.agregarPrenda(factory.getCamperaJean());
-        Set<Atuendo> atuendos = sugerencia.superposicionSuperiorParaUnAtuendo(atuendo, guardarropa);
+        Set<Atuendo> atuendos = sugerencia.(atuendo, guardarropa);
         assert(atuendos.size()==3);
 
     }

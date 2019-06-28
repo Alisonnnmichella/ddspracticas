@@ -1,19 +1,19 @@
 package QueOutfit.SugerenciasElementos;
 
 import QueOutfit.Excepciones.AtuendoException;
+import QueOutfit.Excepciones.CategoriaException;
 import QueOutfit.Excepciones.PrendaAcopladaException;
 import QueOutfit.PrendasElementos.Categoria;
+import QueOutfit.PrendasElementos.ETipo;
 import QueOutfit.PrendasElementos.Prenda;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Atuendo {
 
-    private List <Prenda> atuendo;
-    public Atuendo(List <Prenda> atuendo) {
+    private Set <Prenda> atuendo;
+    public Atuendo(Set <Prenda> atuendo) {
         this.atuendo=atuendo;
         validarAtuendo();
     }
@@ -49,16 +49,9 @@ public class Atuendo {
         return this.obtenerPrenda(Categoria.SUPERIOR);
     }
 
-    public List <Prenda> getPrendas(){
-        List <Prenda> prendas= new ArrayList<>();
+    public Set <Prenda> getPrendas(){
+        Set<Prenda> prendas= new HashSet<>();
         atuendo.forEach(prenda->prendas.add(prenda));
         return prendas;
-
-    }
-
-    public boolean compatibleConPrenda(Prenda prendanueva){
-        return  !atuendo.stream().map(prenda->prenda.getTipo()).collect(Collectors.toSet())
-               .contains(prendanueva.getTipo());
-
-    }
+        }
 }

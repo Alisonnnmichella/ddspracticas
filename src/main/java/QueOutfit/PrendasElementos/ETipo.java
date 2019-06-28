@@ -3,6 +3,7 @@ package QueOutfit.PrendasElementos;
 public enum ETipo {
         REMERA(Categoria.SUPERIOR,NivelAbrigo.LIVIANO),SWEATER(Categoria.SUPERIOR,NivelAbrigo.PESADO)
         ,CALZATERMICA(Categoria.INFERIOR,NivelAbrigo.PESADO),
+        JOGGIN(Categoria.INFERIOR,NivelAbrigo.MEDIANO),
         SHORT(Categoria.INFERIOR,NivelAbrigo.LIVIANO),
         PANTALON(Categoria.INFERIOR,NivelAbrigo.MEDIANO),
         ZAPATILLAS(Categoria.CALZADO,NivelAbrigo.LIVIANO),
@@ -12,7 +13,7 @@ public enum ETipo {
         CHOMBA(Categoria.SUPERIOR,NivelAbrigo.MEDIANO),
         CAMISA(Categoria.SUPERIOR,NivelAbrigo.LIVIANO),
         PANTALON_DE_VESTIR(Categoria.INFERIOR,NivelAbrigo.LIVIANO),
-        GUANTES(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
+        GUANTES(Categoria.ACCESORIO,NivelAbrigo.LIVIANO),
         MEDIAS(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
         BUFANDA(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),
         GORRO(Categoria.ACCESORIO,NivelAbrigo.MEDIANO),

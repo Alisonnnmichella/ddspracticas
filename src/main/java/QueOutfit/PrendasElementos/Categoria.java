@@ -1,5 +1,6 @@
 package QueOutfit.PrendasElementos;
 
 public enum Categoria {
-    SUPERIOR,INFERIOR,CALZADO,ACCESORIO;
+    SUPERIOR,INFERIOR,CALZADO
+    ;
 }
